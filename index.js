@@ -23,6 +23,22 @@ function chooseColors (colors) {
     return chosenColors;
 }
 
+function chooseCount (maxCount) {
+    let r = random();
+
+    if ((r >= 1 && r <= 5) || maxCount == 1) /* 5% */{
+        return 1;
+    } else if ((r >= 6 && r <= 20) || maxCount == 2) /* 15% */ {
+        return 2;
+    } else if ((r >= 21 && r <= 40) || maxCount == 3) /* 20% */ {
+        return 3;
+    } else if ((r >= 41 && r <= 100) || maxCount == 4) /* 60% */ {
+        return 4;
+    }
+
+    return 0;
+}
+
 $(document).ready(function () {
     let colors = ["W", "U", "B", "R", "G"];
     let sets = ["thb", "eld", "m20", "war", "rna", "grn", "m19", "dar", "rix", "xln"];
@@ -30,13 +46,18 @@ $(document).ready(function () {
     let rarity = ["basic land", "common", "uncommon", "rare", "mythic"];
 
     let deckSize = 60;
+
+    let minAverageCMC = 2.2;
+    let maxAverageCMC = 3.8;
+
     let averageCMC = 3.0;
 
-    let numLands = Math.round(16 / 3 * averageCMC + 8) * deckSize / 60;
-    let numNonLands = deckSize - numLands;
+    let numLands;
+    let numNonLands;
 
     let chosenLands = [];
     let chosenNonLands = [];
+    let countChosenNonLands = 0;
 
     let chosenColors = chooseColors(colors);
 
@@ -46,4 +67,69 @@ $(document).ready(function () {
     let filteredNonLands = NONLANDS.filter(function (x) {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
     });
+
+    do {
+        let choice = filteredNonLands[Math.floor(Math.random() * filteredNonLands.length)];
+
+        var flag = false;
+        if (chosenColors.length !== 0) {
+            if (choice.color_identity.length > 0) {
+                choice.color_identity.forEach(function (item) {
+                    if (flag || chosenColors.includes(item)) {
+                        flag = true;
+                    }
+                });
+
+                if (flag) {
+                    choice.color_identity.every(function (x) { 
+                        if (chosenColors.indexOf(x) != -1) {
+                            chosenColors.splice(chosenColors.indexOf(x), 1)
+                        }
+                    });
+                }
+            }
+        }
+
+        numLands = Math.round(16 / 3 * averageCMC + 8) * deckSize / 60;
+        numNonLands = deckSize - numLands;
+
+        if (chosenColors.length !== 0 && !flag) {
+            continue;
+        }
+
+        let count = chooseCount(numNonLands - countChosenNonLands);
+        if (count == 0) {
+            continue;
+        }
+
+        let sumCMC = 0;
+        if (chosenNonLands.length > 0) {
+            chosenNonLands.forEach(function (item) {
+                sumCMC += item.count * item.cmc;
+            });
+        }
+        sumCMC += count * choice.cmc;
+        averageCMC = sumCMC / (countChosenNonLands + count);
+
+        if (averageCMC > maxAverageCMC || averageCMC < minAverageCMC) {
+            continue;
+        }
+
+        filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
+
+        choice.count = count;
+        countChosenNonLands += count;
+        chosenNonLands.push(choice);
+    } while (countChosenNonLands < numNonLands);
+
+    while (countChosenNonLands > numNonLands) {
+        let indexVictim = Math.floor(Math.random() * chosenNonLands.length);
+
+        chosenNonLands[indexVictim].count -= 1;
+        countChosenNonLands -= 1;
+
+        if (chosenNonLands[indexVictim].count <= 0) {
+            chosenNonLands.splice(indexVictim, 1);
+        }
+    }
 });
