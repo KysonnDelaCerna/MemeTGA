@@ -2,23 +2,8 @@ function random () {
     return Math.floor(Math.random() * 100) + 1;
 }
 
-$(document).ready(function () {
-    let colors = ["W", "U", "B", "R", "G"];
-    let sets = ["thb", "eld", "m20", "war", "rna", "grn", "m19", "dar", "rix", "xln"];
-    let format = "historic";
-    let rarity = ["common", "uncommon", "rare", "mythic"];
-
-    let deckSize = 60;
-    let averageCMC = 3.0;
-
-    let numLands = Math.round(16 / 3 * averageCMC + 8);
-    let numNonLands = deckSize - numLands;
-
-    let chosenLands = [];
-    let chosenNonLands = [];
-
+function chooseColors (colors) {
     let chosenColors = [];
-
     let r = random();
     
     if ((r >= 1 && r <= 5) || colors.length == 0) /* 5% */{
@@ -34,4 +19,24 @@ $(document).ready(function () {
     } else if (r >= 98 && r <= 100) /* 3% */ {
         chosenColors = colors;
     }
+
+    return chosenColors;
+}
+
+$(document).ready(function () {
+    let colors = ["W", "U", "B", "R", "G"];
+    let sets = ["thb", "eld", "m20", "war", "rna", "grn", "m19", "dar", "rix", "xln"];
+    let format = "historic";
+    let rarity = ["common", "uncommon", "rare", "mythic"];
+
+    let deckSize = 60;
+    let averageCMC = 3.0;
+
+    let numLands = Math.round(16 / 3 * averageCMC + 8);
+    let numNonLands = deckSize - numLands;
+
+    let chosenLands = [];
+    let chosenNonLands = [];
+
+    let chosenColors = chooseColors(colors);
 });
