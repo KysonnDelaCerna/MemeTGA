@@ -27,7 +27,7 @@ $(document).ready(function () {
     let colors = ["W", "U", "B", "R", "G"];
     let sets = ["thb", "eld", "m20", "war", "rna", "grn", "m19", "dar", "rix", "xln"];
     let format = "historic";
-    let rarity = ["common", "uncommon", "rare", "mythic"];
+    let rarity = ["basic land", "common", "uncommon", "rare", "mythic"];
 
     let deckSize = 60;
     let averageCMC = 3.0;
@@ -39,4 +39,11 @@ $(document).ready(function () {
     let chosenNonLands = [];
 
     let chosenColors = chooseColors(colors);
+
+    let filteredLands = LANDS.filter(function (x) {
+        return sets.includes(x.set) && rarity.includes(x.rarity) && x.produce.every(y => chosenColors.includes(y) || y === "1") && x.produce.length !== 0 && x.legalities[format] == "legal";
+    });
+    let filteredNonLands = NONLANDS.filter(function (x) {
+        return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
+    });
 });
