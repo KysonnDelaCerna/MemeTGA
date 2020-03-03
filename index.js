@@ -32,7 +32,7 @@ $(document).ready(function () {
     let deckSize = 60;
     let averageCMC = 3.0;
 
-    let numLands = Math.round(16 / 3 * averageCMC + 8);
+    let numLands = Math.round(16 / 3 * averageCMC + 8) * deckSize / 60;
     let numNonLands = deckSize - numLands;
 
     let chosenLands = [];
