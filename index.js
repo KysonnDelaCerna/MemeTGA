@@ -68,7 +68,7 @@ $(document).ready(function () {
     let countChosenNonLands = 0;
 
     let chosenColors = chooseColors(colors);
-    // chosenColors = [];
+    // chosenColors = ["U", "R"];
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
@@ -197,6 +197,14 @@ $(document).ready(function () {
             chosenLands.push(choice);
         } else {
             let countPerColor = [];
+
+            chosenColors.forEach(function (item, index) {
+                countPerColor[index] = 0;
+
+                chosenNonLands.forEach(function (x) {
+                    countPerColor[index] += x.mana_cost.split(item).length - 1;
+                });
+            });
         }
     } else {
         do {
