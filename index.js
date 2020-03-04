@@ -127,8 +127,6 @@ $(document).ready(function () {
             let center = averageCMC.round();
 
             let thisCMC = choice.cmc;
-
-            if ()
         }
 
         filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
