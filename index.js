@@ -39,6 +39,38 @@ function chooseCount (maxCount) {
     return 0;
 }
 
+function getLandFromColor (cost, filteredLands) {
+    let landName;
+
+    switch (cost) {
+        case "W": {
+            landName =  "Plains";
+            break;
+        }
+        case "U": {
+            landName =  "Island";
+            break;
+        }
+        case "B": {
+            landName =  "Swamp";
+            break;
+        }
+        case "R": {
+            landName =  "Mountain";
+            break;
+        }
+        case "G": {
+            landName =  "Forest";
+            break;
+        }
+        default: console.log('huh');
+    }
+
+    return filteredLands.find(function (x) {
+        return x.name === landName;
+    });
+}
+
 $(document).ready(function () {
     let colors = ["W", "U", "B", "R", "G"];
     let sets = ["thb", "eld", "m20", "war", "rna", "grn", "m19", "dar", "rix", "xln"];
@@ -163,34 +195,7 @@ $(document).ready(function () {
 
     if (chosenColors.length > 0 ) {
         if (chosenColors.length == 1) {
-            let landName;
-            switch (chosenColors[0]) {
-                case "W": {
-                    landName = "Plains";
-                    break;
-                }
-                case "U": {
-                    landName = "Island";
-                    break;
-                }
-                case "B": {
-                    landName = "Swamp";
-                    break;
-                }
-                case "R": {
-                    landName = "Mountain";
-                    break;
-                }
-                case "G": {
-                    landName = "Forest";
-                    break;
-                }
-                default: console.log('huh');
-            }
-
-            let choice = filteredLands.find(function (x) {
-                return x.name === landName;
-            });
+            let choice = getLandFromColor(chosenColors[0], filteredLands);
 
             choice.count = numLands;
             countChosenLands = numLands;
@@ -202,9 +207,32 @@ $(document).ready(function () {
                 countPerColor[index] = 0;
 
                 chosenNonLands.forEach(function (x) {
-                    countPerColor[index] += x.mana_cost.split(item).length - 1;
+                    /* Gives more importance to mana costs of cards with lower mana costs
+                       1 cmc card's mana cost is worth 1.1 times as much
+                       3 cmc card's mana cost is worth 1
+                       6 cmc card's mana cost is worth 0.9 times as much */
+                    countPerColor[index] += (x.mana_cost.split(item).length - 1) *((0.0133 * Math.pow(x.cmc, 2) - (0.1533 * x.cmc) + 1.34));
                 });
             });
+
+            let choice;
+            let count;
+
+            for (let i = 0; i < chosenColors.length; i++) {
+                choice = getLandFromColor(chosenColors[i], filteredLands);
+
+                if (i == chosenColors.length - 1) {
+                    count = numLands - countChosenLands;
+                } else {
+                    count = Math.round((countPerColor[i] / countPerColor.reduce((a, b) => a + b, 0)) * numLands);
+                }
+
+                filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
+
+                choice.count = count;
+                countChosenLands += count;
+                chosenLands.push(choice);
+            }
         }
     } else {
         do {
