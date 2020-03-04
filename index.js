@@ -146,16 +146,4 @@ $(document).ready(function () {
             chosenNonLands.splice(indexVictim, 1);
         }
     }
-
-    for (let i = 0; i < 11; i++) {
-        let total = 0;
-
-        chosenNonLands.forEach(function (item) {
-            if (item.cmc == i) {
-                total += item.count;
-            }
-        });
-
-        console.log(i + ' ' + total);
-    }
 });
