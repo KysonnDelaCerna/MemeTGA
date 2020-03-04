@@ -40,35 +40,34 @@ function chooseCount (maxCount) {
 }
 
 function getLandFromColor (cost, filteredLands) {
-    let landName;
-
-    switch (cost) {
-        case "W": {
-            landName =  "Plains";
-            break;
-        }
-        case "U": {
-            landName =  "Island";
-            break;
-        }
-        case "B": {
-            landName =  "Swamp";
-            break;
-        }
-        case "R": {
-            landName =  "Mountain";
-            break;
-        }
-        case "G": {
-            landName =  "Forest";
-            break;
-        }
-        default: console.log('huh');
-    }
+    let landName = getLandNameFromColor(cost);
 
     return filteredLands.find(function (x) {
         return x.name === landName;
     });
+}
+
+function getLandNameFromColor (cost) {
+    switch (cost) {
+        case "W": {
+            return  "Plains";
+        }
+        case "U": {
+            return  "Island";
+        }
+        case "B": {
+            return  "Swamp";
+        }
+        case "R": {
+            return  "Mountain";
+        }
+        case "G": {
+            return  "Forest";
+        }
+        default: console.log('huh');
+    }
+
+    return "Wastes"
 }
 
 $(document).ready(function () {
@@ -80,6 +79,7 @@ $(document).ready(function () {
     let noColorlessNonLands = false;
     let noColorlessLands = false;
     let curveSmoother = false;
+    let addDualLands = true;
 
     let minLandAggressiveness = 0.8;
     let maxLandAggressiveness = 1.2;
@@ -100,7 +100,7 @@ $(document).ready(function () {
     let countChosenNonLands = 0;
 
     let chosenColors = chooseColors(colors);
-    // chosenColors = ["U", "R"];
+    chosenColors = ["U", "R", "B"];
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
@@ -173,6 +173,8 @@ $(document).ready(function () {
             let center = averageCMC.round();
 
             let thisCMC = choice.cmc;
+
+            /* TODO: Add curve smoothener */
         }
 
         filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
@@ -208,7 +210,7 @@ $(document).ready(function () {
 
                 chosenNonLands.forEach(function (x) {
                     /* Gives more importance to mana costs of cards with lower mana costs
-                       1 cmc card's mana cost is worth 1.1 times as much
+                       1 cmc card's mana cost is worth 1.2 times as much
                        3 cmc card's mana cost is worth 1
                        6 cmc card's mana cost is worth 0.9 times as much */
                     countPerColor[index] += (x.mana_cost.split(item).length - 1) *((0.0133 * Math.pow(x.cmc, 2) - (0.1533 * x.cmc) + 1.34));
@@ -233,7 +235,63 @@ $(document).ready(function () {
                 countChosenLands += count;
                 chosenLands.push(choice);
             }
+
+            if (addDualLands) {
+                let choice;
+                let chance;
+                let land1;
+                let land2;
+
+                for (let i = 0; i < chosenColors.length - 1; i++) {
+                    for (let j = i + 1; j < chosenColors.length; j++) {
+                        choice = filteredLands.sort(() => 0.5 - Math.random()).find(function (x) {
+                            return [chosenColors[i], chosenColors[j]].every(y => x.produce.includes(y));
+                        });
+
+                        land1 = chosenLands.find(function (x) {
+                            return x.name === getLandNameFromColor(chosenColors[i]);
+                        });
+                        land2 = chosenLands.find(function (x) {
+                            return x.name === getLandNameFromColor(chosenColors[j]);
+                        });
+
+                        count = chooseCount(land1.count > land2.count ? land1.count : land2.count);
+
+                        if (land1.count > land2.count || (land1.count == land2.count && random() <= 50)) {
+                            if (count < land1.count) {
+                                land1.count -= count;
+                            } else {
+                                continue;
+                            }
+                        } else {
+                            if (count < land2.count) {
+                                land2.count -= count;
+                            } else {
+                                continue;
+                            }
+                        }
+
+                        filteredLands.splice(filteredLands.indexOf(choice), 1);
+
+                        choice.count = count;
+                        chosenLands.push(choice);
+
+                        if (land1.count == 0 || land2.count == 0) {
+                            if (land1.count == 0) {
+                                chosenLands.splice(chosenLands.indexOf(land1), 1);
+                            }
+                            if (land2.count == 0) {
+                                chosenLands.splice(chosenLands.indexOf(land2), 1);
+                            }
+                        } else if (Math.abs(land1.count - land2.count) >= 10 && random() <= 50) {
+                            j--;
+                        }
+                    }
+                }
+            }
         }
+
+        /* TODO: Add random colorless land adder */
     } else {
         do {
             let choice = filteredLands[Math.floor(Math.random() * filteredLands.length)];
