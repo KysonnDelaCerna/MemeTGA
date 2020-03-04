@@ -44,8 +44,10 @@ $(document).ready(function () {
     let sets = ["thb", "eld", "m20", "war", "rna", "grn", "m19", "dar", "rix", "xln"];
     let format = "historic";
     let rarity = ["basic land", "common", "uncommon", "rare", "mythic"];
-
-    let curveSmoother = true;
+    
+    let noColorlessNonLands = false;
+    let noColorlessLands = false;
+    let curveSmoother = false;
 
     let minLandAggressiveness = 0.8;
     let maxLandAggressiveness = 1.2;
@@ -55,17 +57,19 @@ $(document).ready(function () {
 
     let minAverageCMC = 2.2;
     let maxAverageCMC = 3.8;
-
     let averageCMC = 3.0;
 
     let numLands;
     let numNonLands;
 
     let chosenLands = [];
+    let countChosenLands = 0;
     let chosenNonLands = [];
     let countChosenNonLands = 0;
 
     let chosenColors = chooseColors(colors);
+    // chosenColors = [];
+    let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.produce.every(y => chosenColors.includes(y) || y === "1") && x.produce.length !== 0 && x.legalities[format] == "legal";
@@ -74,22 +78,34 @@ $(document).ready(function () {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
     });
 
+    if (noColorlessLands) {
+        filteredLands = filteredLands.filter(function (x) {
+            return x.color_identity.length > 0;
+        });
+    }
+
+    if (noColorlessNonLands) {
+        filteredNonLands = filteredNonLands.filter(function (x) {
+            return x.color_identity.length > 0;
+        });
+    }
+
     do {
         let choice = filteredNonLands[Math.floor(Math.random() * filteredNonLands.length)];
 
-        var flag = false;
-        if (chosenColors.length !== 0) {
+        var colorHuntFlag = false;
+        if (colorHunt.length !== 0) {
             if (choice.color_identity.length > 0) {
                 choice.color_identity.forEach(function (item) {
-                    if (flag || chosenColors.includes(item)) {
-                        flag = true;
+                    if (colorHuntFlag || colorHunt.includes(item)) {
+                        colorHuntFlag = true;
                     }
                 });
 
-                if (flag) {
+                if (colorHuntFlag) {
                     choice.color_identity.every(function (x) { 
-                        if (chosenColors.indexOf(x) != -1) {
-                            chosenColors.splice(chosenColors.indexOf(x), 1)
+                        if (colorHunt.indexOf(x) != -1) {
+                            colorHunt.splice(colorHunt.indexOf(x), 1)
                         }
                     });
                 }
@@ -99,7 +115,7 @@ $(document).ready(function () {
         numLands = Math.round((16 / 3 * averageCMC + 8) * landAggressiveness) * deckSize / 60;
         numNonLands = deckSize - numLands;
 
-        if (chosenColors.length !== 0 && !flag) {
+        if (colorHunt.length !== 0 && !colorHuntFlag) {
             continue;
         }
 
@@ -121,7 +137,7 @@ $(document).ready(function () {
             continue;
         }
 
-        if (countChosenNonLands >= numNonLands / 0.5 && curveSmoother) {
+        if (curveSmoother && countChosenNonLands >= numNonLands / 0.5) {
             let center = averageCMC.round();
 
             let thisCMC = choice.cmc;
@@ -144,4 +160,72 @@ $(document).ready(function () {
             chosenNonLands.splice(indexVictim, 1);
         }
     }
+
+    if (chosenColors.length > 0 ) {
+        if (chosenColors.length == 1) {
+            let landName;
+            switch (chosenColors[0]) {
+                case "W": {
+                    landName = "Plains";
+                    break;
+                }
+                case "U": {
+                    landName = "Island";
+                    break;
+                }
+                case "B": {
+                    landName = "Swamp";
+                    break;
+                }
+                case "R": {
+                    landName = "Mountain";
+                    break;
+                }
+                case "G": {
+                    landName = "Forest";
+                    break;
+                }
+                default: console.log('huh');
+            }
+
+            let choice = filteredLands.find(function (x) {
+                return x.name === landName;
+            });
+
+            choice.count = numLands;
+            countChosenLands = numLands;
+            chosenLands.push(choice);
+        } else {
+            let countPerColor = [];
+        }
+    } else {
+        do {
+            let choice = filteredLands[Math.floor(Math.random() * filteredLands.length)];
+
+            let count = chooseCount(numLands - countChosenLands);
+
+            if (count == 0) {
+                continue;
+            }
+
+            filteredLands.splice(filteredLands.indexOf(choice), 1);
+
+            choice.count = count;
+            chosenLands.push(choice);
+            countChosenLands += count;
+        } while (countChosenLands < numLands);
+    }
+
+    let text = "Deck";
+    if (countChosenLands > 0 && countChosenNonLands > 0) {
+        chosenNonLands.forEach(function (item) {
+            text += `\n${item.count} ${item.name} (${item.set.toUpperCase()}) ${item.collector_number}`;
+        });
+
+        chosenLands.forEach(function (item) {
+            text += `\n${item.count} ${item.name} (${item.set.toUpperCase()}) ${item.collector_number}`;
+        });
+    }
+
+    $('#deck').text(text);
 });
