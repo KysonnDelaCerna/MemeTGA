@@ -96,9 +96,7 @@ $(document).ready(function () {
             }
         }
 
-        numLands = Math.round(16 / 3 * averageCMC + 8);
-
-        numLands = numLands * deckSize / 60 - ((landAggressiveness - 1) * (deckSize * numLands));
+        numLands = Math.round((16 / 3 * averageCMC + 8) * landAggressiveness) * deckSize / 60;
         numNonLands = deckSize - numLands;
 
         if (chosenColors.length !== 0 && !flag) {
