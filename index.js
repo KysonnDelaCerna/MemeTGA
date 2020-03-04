@@ -80,6 +80,7 @@ $(document).ready(function () {
     let noColorlessLands = false;
     let curveSmoother = false;
     let addDualLands = true;
+    let addRandomNonBasicLands = true;
 
     let minLandAggressiveness = 0.8;
     let maxLandAggressiveness = 1.2;
@@ -291,7 +292,32 @@ $(document).ready(function () {
             }
         }
 
-        /* TODO: Add random colorless land adder */
+        if (addRandomNonBasicLands) {
+            for (let i = 0; i < chosenLands.length; i++) {
+                if (chosenLands[i].count < 6) {
+                    continue;
+                }
+
+                if (random() <= 50) {
+                    do {
+                        choice = filteredLands[Math.floor(Math.random() * filteredLands.length)];
+                    } while (choice.rarity == "basic land");
+
+                    count = chooseCount(chosenLands[i].count - 4);
+
+                    chosenLands.count -= count;
+                    
+                    filteredLands.splice(filteredLands.indexOf(choice), 1);
+
+                    choice.count = count;
+                    chosenLands.push(choice);
+                }
+
+                if (chosenLands[i].count >= 6 && random() <= 50) {
+                    i--;
+                }
+            }
+        }
     } else {
         do {
             let choice = filteredLands[Math.floor(Math.random() * filteredLands.length)];
