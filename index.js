@@ -304,7 +304,7 @@ $(document).ready(function () {
 
                     count = chooseCount(chosenLands[i].count - 4);
 
-                    chosenLands.count -= count;
+                    chosenLands[i].count -= count;
                     
                     filteredLands.splice(filteredLands.indexOf(choice), 1);
 
