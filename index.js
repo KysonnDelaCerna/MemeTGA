@@ -45,6 +45,12 @@ $(document).ready(function () {
     let format = "historic";
     let rarity = ["basic land", "common", "uncommon", "rare", "mythic"];
 
+    let curveSmoother = true;
+
+    let minLandAggressiveness = 0.8;
+    let maxLandAggressiveness = 1.2;
+    let landAggressiveness = 1;
+
     let deckSize = 60;
 
     let minAverageCMC = 2.2;
@@ -90,7 +96,9 @@ $(document).ready(function () {
             }
         }
 
-        numLands = Math.round(16 / 3 * averageCMC + 8) * deckSize / 60;
+        numLands = Math.round(16 / 3 * averageCMC + 8);
+
+        numLands = numLands * deckSize / 60 - ((landAggressiveness - 1) * (deckSize * numLands));
         numNonLands = deckSize - numLands;
 
         if (chosenColors.length !== 0 && !flag) {
@@ -115,6 +123,14 @@ $(document).ready(function () {
             continue;
         }
 
+        if (countChosenNonLands >= numNonLands / 0.5 && curveSmoother) {
+            let center = averageCMC.round();
+
+            let thisCMC = choice.cmc;
+
+            if ()
+        }
+
         filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
 
         choice.count = count;
@@ -131,5 +147,17 @@ $(document).ready(function () {
         if (chosenNonLands[indexVictim].count <= 0) {
             chosenNonLands.splice(indexVictim, 1);
         }
+    }
+
+    for (let i = 0; i < 11; i++) {
+        let total = 0;
+
+        chosenNonLands.forEach(function (item) {
+            if (item.cmc == i) {
+                total += item.count;
+            }
+        });
+
+        console.log(i + ' ' + total);
     }
 });
