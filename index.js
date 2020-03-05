@@ -104,7 +104,7 @@ $(document).ready(function () {
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
-        return sets.includes(x.set) && rarity.includes(x.rarity) && x.produce.every(y => chosenColors.includes(y) || y === "1") && x.produce.length !== 0 && x.legalities[format] == "legal";
+        return sets.includes(x.set) && rarity.includes(x.rarity) && chosenColors.every(y => x.produce.includes(y) || x.produce.includes("1") || (x.produce.length === 1 && chosenColors.includes(x.produce[0]))) && x.produce.length !== 0 && x.legalities[format] == "legal";
     });
     let filteredNonLands = NONLANDS.filter(function (x) {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
@@ -170,11 +170,81 @@ $(document).ready(function () {
         }
 
         if (curveSmoother && countChosenNonLands >= numNonLands / 0.5) {
-            let center = averageCMC.round();
+            let countCMC = 0;
 
-            let thisCMC = choice.cmc;
+            if (choice.cmc <= 1) {
+                if (chosenLands.length > 0) {
+                    chosenLands.forEach(function (item) {
+                        if (item.cmc <= 1) {
+                            countCMC += item.count
+                        }
+                    });
 
-            /* TODO: Add curve smoothener */
+                    if (countCMC > Math.round((-1 / 8 * averageCMC + 5 / 8) * deckSize)) {
+                        continue;
+                    }
+                }
+            } else if (choice.cmc == 2) {
+                if (chosenLands.length > 0) {
+                    chosenLands.forEach(function (item) {
+                        if (item.cmc == 2) {
+                            countCMC += item.count
+                        }
+                    });
+
+                    if (countCMC > Math.round((-1 / 32 * averageCMC + 51 / 60) * deckSize)) {
+                        continue;
+                    }
+                }
+            } else if (choice.cmc == 3) {
+                if (chosenLands.length > 0) {
+                    chosenLands.forEach(function (item) {
+                        if (item.cmc == 3) {
+                            countCMC += item.count
+                        }
+                    });
+
+                    if (countCMC > Math.round((-1 / 8 * averageCMC + 33 / 40) * deckSize)) {
+                        continue;
+                    }
+                }
+            } else if (choice.cmc == 4) {
+                if (chosenLands.length > 0) {
+                    chosenLands.forEach(function (item) {
+                        if (item.cmc == 4) {
+                            countCMC += item.count
+                        }
+                    });
+
+                    if (countCMC > Math.round((3 / 16 * averageCMC - 5 / 16) * deckSize)) {
+                        continue;
+                    }
+                }
+            } else if (choice.cmc == 5) {
+                if (chosenLands.length > 0) {
+                    chosenLands.forEach(function (item) {
+                        if (item.cmc == 5) {
+                            countCMC += item.count
+                        }
+                    });
+
+                    if (countCMC > Math.round((1 / 16 * averageCMC - 3 / 80) * deckSize)) {
+                        continue;
+                    }
+                }
+            } else if (choice.cmc >= 6) {
+                if (chosenLands.length > 0) {
+                    chosenLands.forEach(function (item) {
+                        if (item.cmc >= 1) {
+                            countCMC += item.count
+                        }
+                    });
+
+                    if (countCMC > Math.round((1 / 32 * averageCMC - 3 / 160) * deckSize)) {
+                        continue;
+                    }
+                }
+            }
         }
 
         filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
@@ -283,7 +353,7 @@ $(document).ready(function () {
                             if (land2.count == 0) {
                                 chosenLands.splice(chosenLands.indexOf(land2), 1);
                             }
-                        } else if (Math.abs(land1.count - land2.count) >= 10 && random() <= 50) {
+                        } else if (Math.abs(land1.count - land2.count) >= 5 && random() <= 60) {
                             j--;
                         }
                     }
