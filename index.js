@@ -101,10 +101,11 @@ $(document).ready(function () {
     let countChosenNonLands = 0;
 
     let chosenColors = chooseColors(colors);
+    chosenColors = ["U"];
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
-        return sets.includes(x.set) && rarity.includes(x.rarity) && chosenColors.every(y => x.produce.includes(y) || x.produce.includes("1") || (x.produce.length === 1 && chosenColors.includes(x.produce[0]))) && x.produce.length !== 0 && x.legalities[format] == "legal";
+        return sets.includes(x.set) && rarity.includes(x.rarity) && chosenColors.every(y => (x.produce.includes(y) && chooseColors.length >= x.produce.length) || x.produce.includes("1") || (x.produce.length === 1 && chosenColors.includes(x.produce[0]))) && x.produce.length !== 0 && x.legalities[format] == "legal";
     });
     let filteredNonLands = NONLANDS.filter(function (x) {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
@@ -121,6 +122,8 @@ $(document).ready(function () {
             return x.color_identity.length > 0;
         });
     }
+
+    console.log(filteredLands);
 
     do {
         let choice = filteredNonLands[Math.floor(Math.random() * filteredNonLands.length)];
