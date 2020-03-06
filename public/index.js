@@ -104,11 +104,13 @@ function generateDeck () {
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
-        return sets.includes(x.set) && rarity.includes(x.rarity) && chosenColors.every(y => (x.produce.includes(y) && chosenColors.length >= x.produce.length) || x.produce.includes("1") || (x.produce.length === 1 && chosenColors.includes(x.produce[0]))) && x.produce.length !== 0 && x.legalities[format] == "legal";
+        return sets.includes(x.set) && rarity.includes(x.rarity) && (x.produce.includes("1") || x.produce.every(y => chosenColors.includes(y)) || (chosenColors.length >= 2 && chosenColors.every(y => x.produce.includes(y)))) && x.produce.length !== 0 && x.legalities[format] == "legal";
     });
     let filteredNonLands = NONLANDS.filter(function (x) {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
     });
+
+    console.log(filteredLands);
 
     if (noColorlessLands) {
         filteredLands = filteredLands.filter(function (x) {
@@ -124,6 +126,11 @@ function generateDeck () {
 
     do {
         let choice = filteredNonLands[Math.floor(Math.random() * filteredNonLands.length)];
+
+        if (chosenNonLands.some(x => x.name === choice.name)) {
+            filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
+            continue;
+        }
 
         var colorHuntFlag = false;
         if (colorHunt.length !== 0) {
@@ -308,15 +315,19 @@ function generateDeck () {
 
             if (addDualLands) {
                 let choice;
-                let chance;
                 let land1;
                 let land2;
 
                 for (let i = 0; i < chosenColors.length - 1; i++) {
                     for (let j = i + 1; j < chosenColors.length; j++) {
                         choice = filteredLands.sort(() => 0.5 - Math.random()).find(function (x) {
-                            return [chosenColors[i], chosenColors[j]].every(y => x.produce.includes(y));
+                            return [chosenColors[i], chosenColors[j]].every(y => x.produce.includes(y)) && x.produce.length === 2;
                         });
+
+                        if (chosenLands.some(x => x.name === choice.name)) {
+                            filteredLands.splice(filteredLands.indexOf(choice), 1);
+                            continue;
+                        }
 
                         land1 = chosenLands.find(function (x) {
                             return x.name === getLandNameFromColor(chosenColors[i]);
@@ -340,6 +351,8 @@ function generateDeck () {
                                 continue;
                             }
                         }
+
+                        console.log(choice);
 
                         filteredLands.splice(filteredLands.indexOf(choice), 1);
 
@@ -370,7 +383,15 @@ function generateDeck () {
                 if (random() <= 50) {
                     do {
                         choice = filteredLands[Math.floor(Math.random() * filteredLands.length)];
+                        if (choice.rarity == "basic land") {
+                            filteredLands.splice(filteredLands.indexOf(choice), 1);
+                        }
                     } while (choice.rarity == "basic land");
+
+                    if (chosenLands.some(x => x.name === choice.name)) {
+                        filteredLands.splice(filteredLands.indexOf(choice), 1);
+                        continue;
+                    }
 
                     count = chooseCount(chosenLands[i].count - 4);
 
@@ -424,5 +445,14 @@ $(document).ready(function () {
 
     $('#generate').click(function () {
         generateDeck();
+    });
+
+    $('#landAggressivenss').on('input propertychange paste', function () {
+        console.log('asdsadsasad');
+        if (parseFloat($(this).val()) > 1.2) {
+            $(this).val(1.2);
+        } else if (parseFloat($(this).val()) < 0.8) {
+            $(this).val(0.8);
+        }
     });
 });
