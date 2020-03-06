@@ -123,8 +123,6 @@ $(document).ready(function () {
         });
     }
 
-    console.log(filteredLands);
-
     do {
         let choice = filteredNonLands[Math.floor(Math.random() * filteredNonLands.length)];
 

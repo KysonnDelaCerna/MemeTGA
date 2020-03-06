@@ -6,13 +6,112 @@
     <title>MemeTGA</title>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="index.js"></script>
-    <script type="text/javascript" src="lands.json"></script>
-    <script type="text/javascript" src="nonlands.json"></script>
-</head>
-<body>
-    <textarea id="deck">
+    <script type="text/javascript" src="public/index.js"></script>
+    <script type="text/javascript" src="data/lands.json"></script>
+    <script type="text/javascript" src="data/nonlands.json"></script>
 
-    </textarea>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body style="padding: 25px 0;">
+    <div class="container">
+        <div id="parameters" class="container col-sm-12 col-md-12 col-lg-12">
+            <div class="row row-col-4">
+                <div id="colors" class="col-sm-12 col-md-4 col-lg-3" style="display: inline-block; margin-bottom: 20px;">
+                    <input type="checkbox" name="W" value="W" checked>
+                    <label for="W">White</label>
+                    <br/>
+                    <input type="checkbox" name="U" value="U" checked>
+                    <label for="U">Blue</label>
+                    <br/>
+                    <input type="checkbox" name="B" value="B" checked>
+                    <label for="B">Black</label>
+                    <br/>
+                    <input type="checkbox" name="R" value="R" checked>
+                    <label for="R">Red</label>
+                    <br/>
+                    <input type="checkbox" name="G" value="G" checked>
+                    <label for="G">Green</label>
+                </div>
+                <div id="sets" class="col-sm-12 col-md-4 col-lg-3" style="display: inline-block; margin-bottom: 20px;">
+                    <input type="checkbox" name="thb" value="thb" checked>
+                    <label for="thb">Theros Beyond Death</label>
+                    <br/>
+                    <input type="checkbox" name="eld" value="eld" checked>
+                    <label for="eld">Throne of Eldraine</label>
+                    <br/>
+                    <input type="checkbox" name="m20" value="m20" checked>
+                    <label for="m20">Core Set 2020</label>
+                    <br/>
+                    <input type="checkbox" name="war" value="war" checked>
+                    <label for="war">War of the Spark</label>
+                    <br/>
+                    <input type="checkbox" name="rna" value="rna" checked>
+                    <label for="rna">Ravnica Allegiance</label>
+                    <br/>
+                    <input type="checkbox" name="grn" value="grn" checked>
+                    <label for="grn">Guilds of Ravnica</label>
+                    <br/>
+                    <input type="checkbox" name="m19" value="m19" checked>
+                    <label for="m19">Core Set 2019</label>
+                    <br/>
+                    <input type="checkbox" name="dar" value="dar" checked>
+                    <label for="dar">Dominaria</label>
+                    <br/>
+                    <input type="checkbox" name="rix" value="rix" checked>
+                    <label for="rix">Rivals of Ixalan</label>
+                    <br/>
+                    <input type="checkbox" name="xln" value="xln" checked>
+                    <label for="xln">Ixalan</label>
+                </div>
+                <div id="rarity" class="col-sm-12 col-md-4 col-lg-3" style="display: inline-block; margin-bottom: 20px;">
+                    <input type="checkbox" name="common" value="common" checked>
+                    <label for="common">Common</label>
+                    <br/>
+                    <input type="checkbox" name="Uncommon" value="Uncommon" checked>
+                    <label for="Uncommon">Uncommon</label>
+                    <br/>
+                    <input type="checkbox" name="rare" value="rare" checked>
+                    <label for="rare">Rare</label>
+                    <br/>
+                    <input type="checkbox" name="mythic" value="mythic" checked>
+                    <label for="mythic">Mythic Rare</label>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3" style="display: inline-block; margin-bottom: 20px;">
+                    <div id="format" style="margin-bottom: 20px;">
+                        <input type="radio" name="historic" value="historic" checked>
+                        <label for="historic">Historic</label>
+                        <br/>
+                        <input type="radio" name="standard" value="standard">
+                        <label for="standard">Standard</label>
+                    </div>
+                    <div id="misc" style="margin-bottom: 20px;">
+                        <input type="checkbox" id="noColorlessLandss" name="noColorlessLandss">
+                        <label for="noColorlessLandss">No Colorless Lands</label>
+                        <br/>
+                        <input type="checkbox" id="noColorlessNonLands" name="noColorlessNonLands">
+                        <label for="noColorlessNonLands">No Colorless Non-Lands</label>
+                        <br/>
+                        <input type="checkbox" id="curveSmoother" name="curveSmoother" checked>
+                        <label for="curveSmoother">Smoothen Mana Curve</label>
+                        <br/>
+                        <input type="checkbox" id="addDualLands" name="addDualLands" checked>
+                        <label for="addDualLands">Add Dual Lands</label>
+                        <br/>
+                        <input type="checkbox" id="addRandomNonBasicLands" name="addRandomNonBasicLands" checked>
+                        <label for="addRandomNonBasicLands">Add Random Non-Basic Lands</label>
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <label for="landAggressiveness">Land Aggressiveness</label>
+                        <input type="number" id="landAggressiveness" name="landAggressiveness" value="1.0" step="0.01" min="0.8" max="1.2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container col-sm-12 col-md-12 col-lg-12">
+            <button id="generate" class="btn btn-info col-sm-12 col-md-6 col-lg-3" style="margin-bottom: 10px;">Generate</button>
+            <button id="copy" class="btn btn-info col-sm-12 col-md-6 col-lg-2" style="margin-bottom: 10px;">Copy to Clipboard</button>
+        </div> 
+        <textarea id="deck" class="col-sm-12 col-md-12 col-lg-12" style="min-height: 450px;"></textarea>
+    </div>
 </body>
 </html>
