@@ -77,23 +77,27 @@ function generateDeck () {
     });
     let sets = [];
     $.each($('#sets input[type="checkbox"]:checked'), function (key, value) {
-        colors.push(value.value);
+        sets.push(value.value);
     });
-    let format = "historic";
+    let format = $('input[name="format"]').val();
     let rarity = ["basic land"];
     $.each($('#rarity input[type="checkbox"]:checked'), function (key, value) {
-        colors.push(value.value);
+        rarity.push(value.value);
     });
-    
-    let noColorlessNonLands = false;
-    let noColorlessLands = false;
-    let curveSmoother = false;
-    let addDualLands = true;
-    let addRandomNonBasicLands = true;
+
+    console.log(noColorlessNonLands);
+    console.log(noColorlessLands);
+    console.log(curveSmoother);
+    console.log(addDualLands);
+    console.log(addRandomNonBasicLands);
 
     let minLandAggressiveness = 0.8;
     let maxLandAggressiveness = 1.2;
-    let landAggressiveness = 1;
+    let landAggressiveness = parseFloat($('#landAggressiveness').val());
+
+    if (isNaN(landAggressiveness) || landAggressiveness > maxLandAggressiveness || landAggressiveness < minLandAggressiveness) {
+        landAggressiveness = 1;
+    }
 
     let deckSize = 60;
 
