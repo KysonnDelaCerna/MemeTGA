@@ -101,7 +101,6 @@ $(document).ready(function () {
     let countChosenNonLands = 0;
 
     let chosenColors = chooseColors(colors);
-    chosenColors = ["U"];
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
