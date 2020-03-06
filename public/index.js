@@ -110,8 +110,6 @@ function generateDeck () {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
     });
 
-    console.log(filteredLands);
-
     if (noColorlessLands) {
         filteredLands = filteredLands.filter(function (x) {
             return x.color_identity.length > 0;
@@ -127,7 +125,10 @@ function generateDeck () {
     do {
         let choice = filteredNonLands[Math.floor(Math.random() * filteredNonLands.length)];
 
-        if (chosenNonLands.some(x => x.name === choice.name)) {
+        numLands = Math.round((16 / 3 * averageCMC + 8) * landAggressiveness) * deckSize / 60;
+        numNonLands = deckSize - numLands;
+
+        if (chosenNonLands.length > 0 && chosenNonLands.some(x => x.name === choice.name)) {
             filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
             continue;
         }
@@ -150,9 +151,6 @@ function generateDeck () {
                 }
             }
         }
-
-        numLands = Math.round((16 / 3 * averageCMC + 8) * landAggressiveness) * deckSize / 60;
-        numNonLands = deckSize - numLands;
 
         if (colorHunt.length !== 0 && !colorHuntFlag) {
             continue;
@@ -313,7 +311,7 @@ function generateDeck () {
                 chosenLands.push(choice);
             }
 
-            if (addDualLands) {
+            if (addDualLands && chosenColors.length >= 2) {
                 let choice;
                 let land1;
                 let land2;
@@ -336,6 +334,10 @@ function generateDeck () {
                             return x.name === getLandNameFromColor(chosenColors[j]);
                         });
 
+                        if (!land1 || !land2) {
+                            continue;
+                        }
+
                         count = chooseCount(land1.count > land2.count ? land1.count : land2.count);
 
                         if (land1.count > land2.count || (land1.count == land2.count && random() <= 50)) {
@@ -351,8 +353,6 @@ function generateDeck () {
                                 continue;
                             }
                         }
-
-                        console.log(choice);
 
                         filteredLands.splice(filteredLands.indexOf(choice), 1);
 
@@ -447,12 +447,13 @@ $(document).ready(function () {
         generateDeck();
     });
 
-    $('#landAggressivenss').on('input propertychange paste', function () {
-        console.log('asdsadsasad');
+    $('#landAggressiveness').on('input propertychange paste', function () {
         if (parseFloat($(this).val()) > 1.2) {
             $(this).val(1.2);
         } else if (parseFloat($(this).val()) < 0.8) {
             $(this).val(0.8);
+        } else if (isNaN(parseFloat($(this).val()))) {
+            $(this).val(1);
         }
     });
 });
