@@ -67,7 +67,7 @@ function getLandNameFromColor (cost) {
         default: console.log('huh');
     }
 
-    return "Wastes"
+    return "Wastes";
 }
 
 function generateDeck () {
@@ -124,7 +124,7 @@ function generateDeck () {
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
-        return sets.includes(x.set) && rarity.includes(x.rarity) && (x.produce.includes("1") || x.produce.every(y => chosenColors.includes(y)) || (chosenColors.length >= 2 && chosenColors.every(y => x.produce.includes(y)))) && x.produce.length !== 0 && x.legalities[format] == "legal";
+        return chosenColors.length == 0 || (sets.includes(x.set) && rarity.includes(x.rarity) && (x.produce.includes("1") || x.produce.every(y => chosenColors.includes(y)) || (chosenColors.length >= 2 && chosenColors.every(y => x.produce.includes(y)))) && x.produce.length !== 0 && x.legalities[format] == "legal");
     });
     let filteredNonLands = NONLANDS.filter(function (x) {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
@@ -149,6 +149,10 @@ function generateDeck () {
         numNonLands = deckSize - numLands;
 
         if (chosenNonLands.length > 0 && chosenNonLands.some(x => x.name === choice.name)) {
+            if (filteredNonLands.indexOf(choice) == -1) {
+                continue;
+            }
+
             filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
             continue;
         }
@@ -177,6 +181,9 @@ function generateDeck () {
         }
 
         let count = chooseCount(numNonLands - countChosenNonLands);
+        if (countChosenNonLands + count > numNonLands) {
+            count = countChosenNonLands + count - numNonLands;
+        }
         if (count == 0) {
             continue;
         }
@@ -187,14 +194,14 @@ function generateDeck () {
                 sumCMC += item.count * item.cmc;
             });
         }
-        sumCMC += count * choice.cmc;
-        averageCMC = sumCMC / (countChosenNonLands + count);
+        sumCMC += count * choice.cmc + ((numNonLands - count - countChosenNonLands) * 3);
+        averageCMC = sumCMC / (numNonLands);
 
         if (averageCMC > maxAverageCMC || averageCMC < minAverageCMC) {
             continue;
         }
 
-        if (curveSmoother && countChosenNonLands >= numNonLands / 0.5) {
+        if (curveSmoother && countChosenNonLands > 0.25 * deckSize) {
             let countCMC = 0;
 
             if (choice.cmc <= 1) {
@@ -260,7 +267,7 @@ function generateDeck () {
             } else if (choice.cmc >= 6) {
                 if (chosenLands.length > 0) {
                     chosenLands.forEach(function (item) {
-                        if (item.cmc >= 1) {
+                        if (item.cmc >= 6) {
                             countCMC += item.count
                         }
                     });
@@ -272,6 +279,9 @@ function generateDeck () {
             }
         }
 
+        if (filteredNonLands.indexOf(choice) == -1) {
+            continue;
+        }
         filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
 
         choice.count = count;
