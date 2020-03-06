@@ -489,10 +489,12 @@ $(document).ready(function () {
         if ($(this).val() == 'standard') {
             $('#sets input[type="checkbox"]:not(.standard)').fadeOut();
             $('#sets label:not(.standard):not(.title)').fadeOut();
+            $('#sets br:not(.standard)').fadeOut();
             $('#sets input[type="checkbox"]:not(.standard)').prop('checked', false);
         } else if ($(this).val() == 'historic') {
             $('#sets input[type="checkbox"]:not(.standard)').fadeIn();
             $('#sets label:not(.standard):not(.title)').fadeIn();
+            $('#sets br:not(.standard)').fadeIn();
             $('#sets input[type="checkbox"]:not(.standard)').prop('checked', true);
         }
     });
