@@ -456,4 +456,12 @@ $(document).ready(function () {
             $(this).val(1);
         }
     });
+
+    $('#copy').click(function () {
+        let copyText = document.getElementById("deck");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+        copyText.setSelectionRange(0, 0);
+    });
 });
