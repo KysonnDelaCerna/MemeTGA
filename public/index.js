@@ -71,10 +71,19 @@ function getLandNameFromColor (cost) {
 }
 
 function generateDeck () {
-    let colors = ["W", "U", "B", "R", "G"];
-    let sets = ["thb", "eld", "m20", "war", "rna", "grn", "m19", "dar", "rix", "xln"];
+    let colors = [];
+    $.each($('#colors input[type="checkbox"]:checked'), function (key, value) {
+        colors.push(value.value);
+    });
+    let sets = [];
+    $.each($('#sets input[type="checkbox"]:checked'), function (key, value) {
+        colors.push(value.value);
+    });
     let format = "historic";
-    let rarity = ["basic land", "common", "uncommon", "rare", "mythic"];
+    let rarity = ["basic land"];
+    $.each($('#rarity input[type="checkbox"]:checked'), function (key, value) {
+        colors.push(value.value);
+    });
     
     let noColorlessNonLands = false;
     let noColorlessLands = false;
