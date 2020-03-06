@@ -130,13 +130,13 @@ function generateDeck () {
         return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
     });
 
-    if (noColorlessLands) {
+    if (noColorlessLands && chosenColors.length > 0) {
         filteredLands = filteredLands.filter(function (x) {
             return x.color_identity.length > 0;
         });
     }
 
-    if (noColorlessNonLands) {
+    if (noColorlessNonLands && chosenColors.length > 0) {
         filteredNonLands = filteredNonLands.filter(function (x) {
             return x.color_identity.length > 0;
         });
