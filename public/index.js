@@ -85,11 +85,18 @@ function generateDeck () {
         rarity.push(value.value);
     });
 
-    console.log(noColorlessNonLands);
-    console.log(noColorlessLands);
-    console.log(curveSmoother);
-    console.log(addDualLands);
-    console.log(addRandomNonBasicLands);
+    let standard = ['thb', 'eld', 'm20', 'war', 'rna', 'grn'];
+    if (format === 'standard' && sets.length > 0) {
+        sets.filter(function (x) {
+            return standard.includes(x);
+        });
+    }
+
+    let noColorlessNonLands = $('#noColorlessNonLands').prop('checked');
+    let noColorlessLands = $('#noColorlessLands').prop('checked');
+    let curveSmoother = $('#curveSmoother').prop('checked');
+    let addDualLands = $('#addDualLands').prop('checked');
+    let addRandomNonBasicLands = $('#addRandomNonBasicLands').prop('checked');
 
     let minLandAggressiveness = 0.8;
     let maxLandAggressiveness = 1.2;
@@ -476,5 +483,17 @@ $(document).ready(function () {
         copyText.setSelectionRange(0, 99999);
         document.execCommand('copy');
         copyText.setSelectionRange(0, 0);
+    });
+
+    $('input[name="format"]').on('change', function () {
+        if ($(this).val() == 'standard') {
+            $('#sets input[type="checkbox"]:not(.standard)').fadeOut();
+            $('#sets label:not(.standard):not(.title)').fadeOut();
+            $('#sets input[type="checkbox"]:not(.standard)').prop('checked', false);
+        } else if ($(this).val() == 'historic') {
+            $('#sets input[type="checkbox"]:not(.standard)').fadeIn();
+            $('#sets label:not(.standard):not(.title)').fadeIn();
+            $('#sets input[type="checkbox"]:not(.standard)').prop('checked', true);
+        }
     });
 });
