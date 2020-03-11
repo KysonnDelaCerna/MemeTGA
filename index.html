@@ -14,11 +14,11 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
-<body style="padding: 25px 0;">
+<body class="py-4">
     <div class="container">
         <div id="parameters" class="container col-sm-12 col-md-12 col-lg-12">
             <div class="row row-col-4">
-                <div id="colors" class="col-sm-12 col-md-4 col-lg-3" style="display: inline-block; margin-bottom: 20px;">
+                <div id="colors" class="col-sm-12 col-md-4 col-lg-3 d-inline-block mb-3">
                     <label><b>Colors:</b></label><br/>
 
                     <input type="checkbox" name="W" value="W" checked>
@@ -36,7 +36,7 @@
                     <input type="checkbox" name="G" value="G" checked>
                     <label for="G">Green</label>
                 </div>
-                <div id="sets" class="col-sm-12 col-md-4 col-lg-3" style="display: inline-block; margin-bottom: 20px;">
+                <div id="sets" class="col-sm-12 col-md-4 col-lg-3 d-inline-block mb-3">
                     <label class="title"><b>Sets:</b></label><br/>
 
                     <input type="checkbox" name="thb" value="thb" class="standard" checked>
@@ -69,7 +69,7 @@
                     <input type="checkbox" name="xln" value="xln" checked>
                     <label for="xln">Ixalan</label>
                 </div>
-                <div id="rarity" class="col-sm-12 col-md-4 col-lg-3" style="display: inline-block; margin-bottom: 20px;">
+                <div id="rarity" class="col-sm-12 col-md-4 col-lg-3 d-inline-block mb-3">
                     <label><b>Rarity:</b></label><br/>
 
                     <input type="checkbox" name="common" value="common" checked>
@@ -84,8 +84,8 @@
                     <input type="checkbox" name="mythic" value="mythic" checked>
                     <label for="mythic">Mythic Rare</label>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-3" style="display: inline-block; margin-bottom: 20px;">
-                    <div id="format" style="margin-bottom: 20px;">
+                <div class="col-sm-12 col-md-4 col-lg-3 d-inline-block mb-3">
+                    <div id="format" class="mb-3">
                         <label><b>Format:</b></label><br/>
 
                         <input type="radio" name="format" value="historic" checked>
@@ -94,7 +94,7 @@
                         <input type="radio" name="format" value="standard">
                         <label for="standard">Standard</label>
                     </div>
-                    <div id="misc" style="margin-bottom: 20px;">
+                    <div id="misc" class="mb-3">
                         <label><b>Miscellaneous:</b></label><br/>
 
                         <input type="checkbox" id="noColorlessLands" name="noColorlessLandss">
@@ -112,7 +112,7 @@
                         <input type="checkbox" id="addRandomNonBasicLands" name="addRandomNonBasicLands" checked>
                         <label for="addRandomNonBasicLands">Add Random Non-Basic Lands</label>
                     </div>
-                    <div style="margin-bottom: 20px;">
+                    <div class="mb-3">
                         <label for="landAggressiveness"><b>Land Aggressiveness:</b></label><br/>
                         <input type="number" id="landAggressiveness" name="landAggressiveness" value="1.0" step="0.01" min="0.8" max="1.2">
                     </div>
@@ -120,8 +120,8 @@
             </div>
         </div>
         <div class="container col-sm-12 col-md-12 col-lg-12">
-            <button id="generate" class="btn btn-info col-sm-12 col-md-6 col-lg-3" style="margin-bottom: 10px;">Generate</button>
-            <button id="copy" class="btn btn-info col-sm-12 col-md-6 col-lg-2" style="margin-bottom: 10px;">Copy to Clipboard</button>
+            <button id="generate" class="btn btn-info col-sm-12 col-md-6 col-lg-3 mb-3">Generate</button>
+            <button id="copy" class="btn btn-info col-sm-12 col-md-6 col-lg-2 mb-3">Copy to Clipboard</button>
         </div> 
         <textarea id="deck" class="col-sm-12 col-md-12 col-lg-12" style="min-height: 450px;"></textarea>
     </div>
