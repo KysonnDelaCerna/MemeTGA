@@ -79,13 +79,16 @@ function generateDeck () {
     $.each($('#sets input[type="checkbox"]:checked'), function (key, value) {
         sets.push(value.value);
     });
+    if (sets === []) {
+        return;
+    }
     let format = $('input[name="format"]').val();
     let rarity = ["basic land"];
     $.each($('#rarity input[type="checkbox"]:checked'), function (key, value) {
         rarity.push(value.value);
     });
 
-    let standard = ['thb', 'eld', 'm20', 'war', 'rna', 'grn'];
+    let standard = ['iko', 'thb', 'eld', 'm20', 'war', 'rna', 'grn'];
     if (format === 'standard' && sets.length > 0) {
         sets.filter(function (x) {
             return standard.includes(x);
@@ -124,10 +127,10 @@ function generateDeck () {
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
-        return chosenColors.length == 0 || (sets.includes(x.set) && rarity.includes(x.rarity) && (x.produce.includes("1") || x.produce.every(y => chosenColors.includes(y)) || (chosenColors.length >= 2 && chosenColors.every(y => x.produce.includes(y)))) && x.produce.length !== 0 && x.legalities[format] == "legal");
+        return chosenColors.length == 0 || (sets.includes(x.set_name) && rarity.includes(x.rarity) && (x.produce.includes("1") || x.produce.every(y => chosenColors.includes(y)) || (chosenColors.length >= 2 && chosenColors.every(y => x.produce.includes(y)))) && x.produce.length !== 0 && x.legalities[format] == "legal");
     });
     let filteredNonLands = NONLANDS.filter(function (x) {
-        return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
+        return sets.includes(x.set_name) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
     });
 
     if (noColorlessLands && chosenColors.length > 0) {
@@ -334,7 +337,7 @@ function generateDeck () {
                     count = Math.round((countPerColor[i] / countPerColor.reduce((a, b) => a + b, 0)) * numLands);
                 }
 
-                filteredNonLands.splice(filteredNonLands.indexOf(choice), 1);
+                filteredLands.splice(filteredLands.indexOf(choice), 1);
 
                 choice.count = count;
                 countChosenLands += count;
