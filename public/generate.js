@@ -473,8 +473,6 @@ function generateDeck () {
 }
 
 $(document).ready(function () {
-    generateDeck();
-
     $('#generate').click(function () {
         generateDeck();
     });
