@@ -1,0 +1,5564 @@
+[
+    {
+        "name": "Aegis of the Heavens",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "1",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Aethershield Artificer",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "2",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Ajani, Adversary of Tyrants",
+        "mana_cost": "{2}{W}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "3",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Ajani's Last Stand",
+        "mana_cost": "{2}{W}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "4",
+        "rarity": "rare"
+    },
+    {
+        "name": "Ajani's Pridemate",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "5",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Ajani's Welcome",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "6",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Angel of the Dawn",
+        "mana_cost": "{4}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "7",
+        "rarity": "common"
+    },
+    {
+        "name": "Cavalry Drillmaster",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "8",
+        "rarity": "common"
+    },
+    {
+        "name": "Cleansing Nova",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "9",
+        "rarity": "rare"
+    },
+    {
+        "name": "Daybreak Chaplain",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "10",
+        "rarity": "common"
+    },
+    {
+        "name": "Dwarven Priest",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "11",
+        "rarity": "common"
+    },
+    {
+        "name": "Gallant Cavalry",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "12",
+        "rarity": "common"
+    },
+    {
+        "name": "Herald of Faith",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "13",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Hieromancer's Cage",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "14",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Inspired Charge",
+        "mana_cost": "{2}{W}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "15",
+        "rarity": "common"
+    },
+    {
+        "name": "Invoke the Divine",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "16",
+        "rarity": "common"
+    },
+    {
+        "name": "Isolate",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "17",
+        "rarity": "rare"
+    },
+    {
+        "name": "Knight of the Tusk",
+        "mana_cost": "{4}{W}{W}",
+        "cmc": 6.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "18",
+        "rarity": "common"
+    },
+    {
+        "name": "Knight's Pledge",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "19",
+        "rarity": "common"
+    },
+    {
+        "name": "Knightly Valor",
+        "mana_cost": "{4}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "20",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Lena, Selfless Champion",
+        "mana_cost": "{4}{W}{W}",
+        "cmc": 6.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "21",
+        "rarity": "rare"
+    },
+    {
+        "name": "Leonin Vanguard",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "22",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Leonin Warleader",
+        "mana_cost": "{2}{W}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "23",
+        "rarity": "rare"
+    },
+    {
+        "name": "Loxodon Line Breaker",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "24",
+        "rarity": "common"
+    },
+    {
+        "name": "Luminous Bonds",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "25",
+        "rarity": "common"
+    },
+    {
+        "name": "Make a Stand",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "26",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Mentor of the Meek",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "27",
+        "rarity": "rare"
+    },
+    {
+        "name": "Mighty Leap",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "28",
+        "rarity": "common"
+    },
+    {
+        "name": "Militia Bugler",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "29",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Novice Knight",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "30",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Oreskos Swiftclaw",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "31",
+        "rarity": "common"
+    },
+    {
+        "name": "Pegasus Courser",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "32",
+        "rarity": "common"
+    },
+    {
+        "name": "Remorseful Cleric",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "33",
+        "rarity": "rare"
+    },
+    {
+        "name": "Resplendent Angel",
+        "mana_cost": "{1}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "34",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Revitalize",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "35",
+        "rarity": "common"
+    },
+    {
+        "name": "Rustwing Falcon",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "36",
+        "rarity": "common"
+    },
+    {
+        "name": "Shield Mare",
+        "mana_cost": "{1}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "37",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Star-Crowned Stag",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "38",
+        "rarity": "common"
+    },
+    {
+        "name": "Suncleanser",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "39",
+        "rarity": "rare"
+    },
+    {
+        "name": "Take Vengeance",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "40",
+        "rarity": "common"
+    },
+    {
+        "name": "Trusty Packbeast",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "41",
+        "rarity": "common"
+    },
+    {
+        "name": "Valiant Knight",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "42",
+        "rarity": "rare"
+    },
+    {
+        "name": "Aether Tunnel",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "43",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Anticipate",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "44",
+        "rarity": "common"
+    },
+    {
+        "name": "Aven Wind Mage",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "45",
+        "rarity": "common"
+    },
+    {
+        "name": "Aviation Pioneer",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "46",
+        "rarity": "common"
+    },
+    {
+        "name": "Bone to Ash",
+        "mana_cost": "{2}{U}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "47",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Cancel",
+        "mana_cost": "{1}{U}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "48",
+        "rarity": "common"
+    },
+    {
+        "name": "Departed Deckhand",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "49",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Disperse",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "50",
+        "rarity": "common"
+    },
+    {
+        "name": "Divination",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "51",
+        "rarity": "common"
+    },
+    {
+        "name": "Djinn of Wishes",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "52",
+        "rarity": "rare"
+    },
+    {
+        "name": "Dwindle",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "53",
+        "rarity": "common"
+    },
+    {
+        "name": "Essence Scatter",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "54",
+        "rarity": "common"
+    },
+    {
+        "name": "Exclusion Mage",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "55",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Frilled Sea Serpent",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "56",
+        "rarity": "common"
+    },
+    {
+        "name": "Gearsmith Prodigy",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "57",
+        "rarity": "common"
+    },
+    {
+        "name": "Ghostform",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "58",
+        "rarity": "common"
+    },
+    {
+        "name": "Horizon Scholar",
+        "mana_cost": "{5}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "59",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Metamorphic Alteration",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "60",
+        "rarity": "rare"
+    },
+    {
+        "name": "Mirror Image",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "61",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Mistcaller",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "62",
+        "rarity": "rare"
+    },
+    {
+        "name": "Mystic Archaeologist",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "63",
+        "rarity": "rare"
+    },
+    {
+        "name": "Omenspeaker",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "64",
+        "rarity": "common"
+    },
+    {
+        "name": "Omniscience",
+        "mana_cost": "{7}{U}{U}{U}",
+        "cmc": 10.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "65",
+        "rarity": "mythic"
+    },
+    {
+        "name": "One with the Machine",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "66",
+        "rarity": "rare"
+    },
+    {
+        "name": "Patient Rebuilding",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "67",
+        "rarity": "rare"
+    },
+    {
+        "name": "Psychic Corrosion",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "68",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sai, Master Thopterist",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "69",
+        "rarity": "rare"
+    },
+    {
+        "name": "Salvager of Secrets",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "70",
+        "rarity": "common"
+    },
+    {
+        "name": "Scholar of Stars",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "71",
+        "rarity": "common"
+    },
+    {
+        "name": "Sift",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "72",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Skilled Animator",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "73",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sleep",
+        "mana_cost": "{2}{U}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "74",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Snapping Drake",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "75",
+        "rarity": "common"
+    },
+    {
+        "name": "Supreme Phantom",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "76",
+        "rarity": "rare"
+    },
+    {
+        "name": "Surge Mare",
+        "mana_cost": "{U}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "77",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Switcheroo",
+        "mana_cost": "{4}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "78",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Tezzeret, Artifice Master",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "79",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Tolarian Scholar",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "80",
+        "rarity": "common"
+    },
+    {
+        "name": "Totally Lost",
+        "mana_cost": "{4}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "81",
+        "rarity": "common"
+    },
+    {
+        "name": "Uncomfortable Chill",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "82",
+        "rarity": "common"
+    },
+    {
+        "name": "Wall of Mist",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "83",
+        "rarity": "common"
+    },
+    {
+        "name": "Windreader Sphinx",
+        "mana_cost": "{5}{U}{U}",
+        "cmc": 7.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "84",
+        "rarity": "rare"
+    },
+    {
+        "name": "Abnormal Endurance",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "85",
+        "rarity": "common"
+    },
+    {
+        "name": "Blood Divination",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "86",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Bogstomper",
+        "mana_cost": "{4}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "87",
+        "rarity": "common"
+    },
+    {
+        "name": "Bone Dragon",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "88",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Child of Night",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "89",
+        "rarity": "common"
+    },
+    {
+        "name": "Death Baron",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "90",
+        "rarity": "rare"
+    },
+    {
+        "name": "Demon of Catastrophes",
+        "mana_cost": "{2}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "91",
+        "rarity": "rare"
+    },
+    {
+        "name": "Diregraf Ghoul",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "92",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Doomed Dissenter",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "93",
+        "rarity": "common"
+    },
+    {
+        "name": "Duress",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "94",
+        "rarity": "common"
+    },
+    {
+        "name": "Epicure of Blood",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "95",
+        "rarity": "common"
+    },
+    {
+        "name": "Fell Specter",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "96",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Fraying Omnipotence",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "97",
+        "rarity": "rare"
+    },
+    {
+        "name": "Gravedigger",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "98",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Graveyard Marshal",
+        "mana_cost": "{B}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "99",
+        "rarity": "rare"
+    },
+    {
+        "name": "Hired Blade",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "100",
+        "rarity": "common"
+    },
+    {
+        "name": "Infectious Horror",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "101",
+        "rarity": "common"
+    },
+    {
+        "name": "Infernal Reckoning",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "102",
+        "rarity": "rare"
+    },
+    {
+        "name": "Infernal Scarring",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "103",
+        "rarity": "common"
+    },
+    {
+        "name": "Isareth the Awakener",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "104",
+        "rarity": "rare"
+    },
+    {
+        "name": "Lich's Caress",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "105",
+        "rarity": "common"
+    },
+    {
+        "name": "Liliana, Untouched by Death",
+        "mana_cost": "{2}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "106",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Liliana's Contract",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "107",
+        "rarity": "rare"
+    },
+    {
+        "name": "Macabre Waltz",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "108",
+        "rarity": "common"
+    },
+    {
+        "name": "Mind Rot",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "109",
+        "rarity": "common"
+    },
+    {
+        "name": "Murder",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "110",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Nightmare's Thirst",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "111",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Open the Graves",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "112",
+        "rarity": "rare"
+    },
+    {
+        "name": "Phylactery Lich",
+        "mana_cost": "{B}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "113",
+        "rarity": "rare"
+    },
+    {
+        "name": "Plague Mare",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "114",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Ravenous Harpy",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "115",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Reassembling Skeleton",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "116",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Rise from the Grave",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "117",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Skeleton Archer",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "118",
+        "rarity": "common"
+    },
+    {
+        "name": "Skymarch Bloodletter",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "119",
+        "rarity": "common"
+    },
+    {
+        "name": "Sovereign's Bite",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "120",
+        "rarity": "common"
+    },
+    {
+        "name": "Stitcher's Supplier",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "121",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Strangling Spores",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "122",
+        "rarity": "common"
+    },
+    {
+        "name": "Two-Headed Zombie",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "123",
+        "rarity": "common"
+    },
+    {
+        "name": "Vampire Neonate",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "124",
+        "rarity": "common"
+    },
+    {
+        "name": "Vampire Sovereign",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "125",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Walking Corpse",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "126",
+        "rarity": "common"
+    },
+    {
+        "name": "Act of Treason",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "127",
+        "rarity": "common"
+    },
+    {
+        "name": "Alpine Moon",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "128",
+        "rarity": "rare"
+    },
+    {
+        "name": "Apex of Power",
+        "mana_cost": "{7}{R}{R}{R}",
+        "cmc": 10.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "129",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Banefire",
+        "mana_cost": "{X}{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "130",
+        "rarity": "rare"
+    },
+    {
+        "name": "Boggart Brute",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "131",
+        "rarity": "common"
+    },
+    {
+        "name": "Catalyst Elemental",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "132",
+        "rarity": "common"
+    },
+    {
+        "name": "Crash Through",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "133",
+        "rarity": "common"
+    },
+    {
+        "name": "Dark-Dweller Oracle",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "134",
+        "rarity": "rare"
+    },
+    {
+        "name": "Demanding Dragon",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "135",
+        "rarity": "rare"
+    },
+    {
+        "name": "Dismissive Pyromancer",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "136",
+        "rarity": "rare"
+    },
+    {
+        "name": "Doublecast",
+        "mana_cost": "{R}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "137",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Dragon Egg",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "138",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Electrify",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "139",
+        "rarity": "common"
+    },
+    {
+        "name": "Fiery Finish",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "140",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Fire Elemental",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "141",
+        "rarity": "common"
+    },
+    {
+        "name": "Goblin Instigator",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "142",
+        "rarity": "common"
+    },
+    {
+        "name": "Goblin Motivator",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "143",
+        "rarity": "common"
+    },
+    {
+        "name": "Goblin Trashmaster",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "144",
+        "rarity": "rare"
+    },
+    {
+        "name": "Guttersnipe",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "145",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Havoc Devils",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "146",
+        "rarity": "common"
+    },
+    {
+        "name": "Hostile Minotaur",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "147",
+        "rarity": "common"
+    },
+    {
+        "name": "Inferno Hellion",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "148",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Lathliss, Dragon Queen",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "149",
+        "rarity": "rare"
+    },
+    {
+        "name": "Lava Axe",
+        "mana_cost": "{4}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "150",
+        "rarity": "common"
+    },
+    {
+        "name": "Lightning Mare",
+        "mana_cost": "{R}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "151",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Lightning Strike",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "152",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Onakke Ogre",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "153",
+        "rarity": "common"
+    },
+    {
+        "name": "Sarkhan, Fireblood",
+        "mana_cost": "{1}{R}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "154",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Sarkhan's Unsealing",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "155",
+        "rarity": "rare"
+    },
+    {
+        "name": "Shock",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "156",
+        "rarity": "common"
+    },
+    {
+        "name": "Siegebreaker Giant",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "157",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Smelt",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "158",
+        "rarity": "common"
+    },
+    {
+        "name": "Sparktongue Dragon",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "159",
+        "rarity": "common"
+    },
+    {
+        "name": "Spit Flame",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "160",
+        "rarity": "rare"
+    },
+    {
+        "name": "Sure Strike",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "161",
+        "rarity": "common"
+    },
+    {
+        "name": "Tectonic Rift",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "162",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Thud",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "163",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Tormenting Voice",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "164",
+        "rarity": "common"
+    },
+    {
+        "name": "Trumpet Blast",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "165",
+        "rarity": "common"
+    },
+    {
+        "name": "Viashino Pyromancer",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "166",
+        "rarity": "common"
+    },
+    {
+        "name": "Volcanic Dragon",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "167",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Volley Veteran",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "168",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Blanchwood Armor",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "169",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Bristling Boar",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "170",
+        "rarity": "common"
+    },
+    {
+        "name": "Centaur Courser",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "171",
+        "rarity": "common"
+    },
+    {
+        "name": "Colossal Dreadmaw",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "172",
+        "rarity": "common"
+    },
+    {
+        "name": "Colossal Majesty",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "173",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Daggerback Basilisk",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "174",
+        "rarity": "common"
+    },
+    {
+        "name": "Declare Dominance",
+        "mana_cost": "{3}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "175",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Druid of Horns",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "176",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Druid of the Cowl",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "177",
+        "rarity": "common"
+    },
+    {
+        "name": "Dryad Greenseeker",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "178",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Elvish Clancaller",
+        "mana_cost": "{G}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "179",
+        "rarity": "rare"
+    },
+    {
+        "name": "Elvish Rejuvenator",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "180",
+        "rarity": "common"
+    },
+    {
+        "name": "Ghastbark Twins",
+        "mana_cost": "{5}{G}{G}",
+        "cmc": 7.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "181",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Ghirapur Guide",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "182",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Giant Spider",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "183",
+        "rarity": "common"
+    },
+    {
+        "name": "Gift of Paradise",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "184",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Gigantosaurus",
+        "mana_cost": "{G}{G}{G}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "185",
+        "rarity": "rare"
+    },
+    {
+        "name": "Goreclaw, Terror of Qal Sisma",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "186",
+        "rarity": "rare"
+    },
+    {
+        "name": "Greenwood Sentinel",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "187",
+        "rarity": "common"
+    },
+    {
+        "name": "Highland Game",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "188",
+        "rarity": "common"
+    },
+    {
+        "name": "Hungering Hydra",
+        "mana_cost": "{X}{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "189",
+        "rarity": "rare"
+    },
+    {
+        "name": "Naturalize",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "190",
+        "rarity": "common"
+    },
+    {
+        "name": "Oakenform",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "191",
+        "rarity": "common"
+    },
+    {
+        "name": "Pelakka Wurm",
+        "mana_cost": "{4}{G}{G}{G}",
+        "cmc": 7.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "192",
+        "rarity": "rare"
+    },
+    {
+        "name": "Plummet",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "193",
+        "rarity": "common"
+    },
+    {
+        "name": "Prodigious Growth",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "194",
+        "rarity": "rare"
+    },
+    {
+        "name": "Rabid Bite",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "195",
+        "rarity": "common"
+    },
+    {
+        "name": "Reclamation Sage",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "196",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Recollect",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "197",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Rhox Oracle",
+        "mana_cost": "{4}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "198",
+        "rarity": "common"
+    },
+    {
+        "name": "Root Snare",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "199",
+        "rarity": "common"
+    },
+    {
+        "name": "Runic Armasaur",
+        "mana_cost": "{1}{G}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "200",
+        "rarity": "rare"
+    },
+    {
+        "name": "Scapeshift",
+        "mana_cost": "{2}{G}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "201",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Talons of Wildwood",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "202",
+        "rarity": "common"
+    },
+    {
+        "name": "Thorn Lieutenant",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "203",
+        "rarity": "rare"
+    },
+    {
+        "name": "Thornhide Wolves",
+        "mana_cost": "{4}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "204",
+        "rarity": "common"
+    },
+    {
+        "name": "Titanic Growth",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "205",
+        "rarity": "common"
+    },
+    {
+        "name": "Vigilant Baloth",
+        "mana_cost": "{3}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "206",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Vine Mare",
+        "mana_cost": "{2}{G}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "207",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Vivien Reid",
+        "mana_cost": "{3}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "208",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Vivien's Invocation",
+        "mana_cost": "{5}{G}{G}",
+        "cmc": 7.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "209",
+        "rarity": "rare"
+    },
+    {
+        "name": "Wall of Vines",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "210",
+        "rarity": "common"
+    },
+    {
+        "name": "Aerial Engineer",
+        "mana_cost": "{2}{W}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "211",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Arcades, the Strategist",
+        "mana_cost": "{1}{G}{W}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "G",
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "G",
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "212",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Brawl-Bash Ogre",
+        "mana_cost": "{2}{B}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "B",
+            "R"
+        ],
+        "color_identity": [
+            "B",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "213",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Chromium, the Mutable",
+        "mana_cost": "{4}{W}{U}{B}",
+        "cmc": 7.0,
+        "colors": [
+            "B",
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "B",
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "214",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Draconic Disciple",
+        "mana_cost": "{1}{R}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G",
+            "R"
+        ],
+        "color_identity": [
+            "G",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "215",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Enigma Drake",
+        "mana_cost": "{1}{U}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R",
+            "U"
+        ],
+        "color_identity": [
+            "R",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "216",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Heroic Reinforcements",
+        "mana_cost": "{2}{R}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "R",
+            "W"
+        ],
+        "color_identity": [
+            "R",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "217",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Nicol Bolas, the Ravager",
+        "mana_cost": "{1}{U}{B}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "U",
+            "B",
+            "R"
+        ],
+        "color_identity": [
+            "U",
+            "B",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "218",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Palladia-Mors, the Ruiner",
+        "mana_cost": "{3}{R}{G}{W}",
+        "cmc": 6.0,
+        "colors": [
+            "G",
+            "R",
+            "W"
+        ],
+        "color_identity": [
+            "G",
+            "R",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "219",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Poison-Tip Archer",
+        "mana_cost": "{2}{B}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "B",
+            "G"
+        ],
+        "color_identity": [
+            "B",
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "220",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Psychic Symbiont",
+        "mana_cost": "{4}{U}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B",
+            "U"
+        ],
+        "color_identity": [
+            "B",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "221",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Regal Bloodlord",
+        "mana_cost": "{3}{W}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B",
+            "W"
+        ],
+        "color_identity": [
+            "B",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "222",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Satyr Enchanter",
+        "mana_cost": "{1}{G}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "G",
+            "W"
+        ],
+        "color_identity": [
+            "G",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "223",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Skyrider Patrol",
+        "mana_cost": "{2}{G}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "G",
+            "U"
+        ],
+        "color_identity": [
+            "G",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "224",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Vaevictis Asmadi, the Dire",
+        "mana_cost": "{3}{B}{R}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "B",
+            "G",
+            "R"
+        ],
+        "color_identity": [
+            "B",
+            "G",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "225",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Amulet of Safekeeping",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "226",
+        "rarity": "rare"
+    },
+    {
+        "name": "Arcane Encyclopedia",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "227",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Chaos Wand",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "228",
+        "rarity": "rare"
+    },
+    {
+        "name": "Crucible of Worlds",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "229",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Desecrated Tomb",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "230",
+        "rarity": "rare"
+    },
+    {
+        "name": "Diamond Mare",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "231",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Dragon's Hoard",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "232",
+        "rarity": "rare"
+    },
+    {
+        "name": "Explosive Apparatus",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "233",
+        "rarity": "common"
+    },
+    {
+        "name": "Field Creeper",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "234",
+        "rarity": "common"
+    },
+    {
+        "name": "Fountain of Renewal",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "235",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Gargoyle Sentinel",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "236",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Gearsmith Guardian",
+        "mana_cost": "{5}",
+        "cmc": 5.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "237",
+        "rarity": "common"
+    },
+    {
+        "name": "Magistrate's Scepter",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "238",
+        "rarity": "rare"
+    },
+    {
+        "name": "Manalith",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "239",
+        "rarity": "common"
+    },
+    {
+        "name": "Marauder's Axe",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "240",
+        "rarity": "common"
+    },
+    {
+        "name": "Meteor Golem",
+        "mana_cost": "{7}",
+        "cmc": 7.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "241",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Millstone",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "242",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Rogue's Gloves",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "243",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sigiled Sword of Valeron",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "244",
+        "rarity": "rare"
+    },
+    {
+        "name": "Skyscanner",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "245",
+        "rarity": "common"
+    },
+    {
+        "name": "Suspicious Bookcase",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "246",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Transmogrifying Wand",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "247",
+        "rarity": "rare"
+    },
+    {
+        "name": "Ajani, Wise Counselor",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "281",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Ajani's Influence",
+        "mana_cost": "{2}{W}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "282",
+        "rarity": "rare"
+    },
+    {
+        "name": "Court Cleric",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "283",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Serra's Guardian",
+        "mana_cost": "{4}{W}{W}",
+        "cmc": 6.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "284",
+        "rarity": "rare"
+    },
+    {
+        "name": "Silverbeak Griffin",
+        "mana_cost": "{W}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "285",
+        "rarity": "common"
+    },
+    {
+        "name": "Tezzeret, Cruel Machinist",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "286",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Riddlemaster Sphinx",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "287",
+        "rarity": "rare"
+    },
+    {
+        "name": "Pendulum of Patterns",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "288",
+        "rarity": "common"
+    },
+    {
+        "name": "Tezzeret's Gatebreaker",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "289",
+        "rarity": "rare"
+    },
+    {
+        "name": "Tezzeret's Strider",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "290",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Liliana, the Necromancer",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "291",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Arisen Gorgon",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "292",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Gravewaker",
+        "mana_cost": "{4}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "293",
+        "rarity": "rare"
+    },
+    {
+        "name": "Liliana's Spoils",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "294",
+        "rarity": "rare"
+    },
+    {
+        "name": "Tattered Mummy",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "295",
+        "rarity": "common"
+    },
+    {
+        "name": "Sarkhan, Dragonsoul",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "296",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Kargan Dragonrider",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "297",
+        "rarity": "common"
+    },
+    {
+        "name": "Sarkhan's Dragonfire",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "298",
+        "rarity": "rare"
+    },
+    {
+        "name": "Sarkhan's Whelp",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "299",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Shivan Dragon",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "300",
+        "rarity": "rare"
+    },
+    {
+        "name": "Vivien of the Arkbow",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "301",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Aggressive Mammoth",
+        "mana_cost": "{3}{G}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "302",
+        "rarity": "rare"
+    },
+    {
+        "name": "Skalla Wolf",
+        "mana_cost": "{3}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "303",
+        "rarity": "rare"
+    },
+    {
+        "name": "Ursine Champion",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "304",
+        "rarity": "common"
+    },
+    {
+        "name": "Vivien's Jaguar",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "305",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Nexus of Fate",
+        "mana_cost": "{5}{U}{U}",
+        "cmc": 7.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "banned"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "306",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Sun Sentinel",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "307",
+        "rarity": "common"
+    },
+    {
+        "name": "Air Elemental",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "308",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Befuddle",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "309",
+        "rarity": "common"
+    },
+    {
+        "name": "Mist-Cloaked Herald",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "310",
+        "rarity": "common"
+    },
+    {
+        "name": "Waterknot",
+        "mana_cost": "{1}{U}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "311",
+        "rarity": "common"
+    },
+    {
+        "name": "Grasping Scoundrel",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "312",
+        "rarity": "common"
+    },
+    {
+        "name": "Radiating Lightning",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "313",
+        "rarity": "common"
+    },
+    {
+        "name": "Llanowar Elves",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m19",
+        "set_name": "Core Set 2019",
+        "collector_number": "314",
+        "rarity": "common"
+    }
+]

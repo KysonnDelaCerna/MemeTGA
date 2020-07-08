@@ -88,10 +88,9 @@ function generateDeck () {
         rarity.push(value.value);
     });
 
-    let standard = ['iko', 'thb', 'eld', 'm20', 'war', 'rna', 'grn'];
     if (format === 'standard' && sets.length > 0) {
         sets.filter(function (x) {
-            return standard.includes(x);
+            return STANDARD.includes(x);
         });
     }
 

@@ -1,0 +1,414 @@
+[
+    {
+        "name": "Cabal Stronghold",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "238",
+        "rarity": "rare",
+        "produce": [
+            "1",
+            "B"
+        ]
+    },
+    {
+        "name": "Clifftop Retreat",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "R",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "239",
+        "rarity": "rare",
+        "produce": [
+            "R",
+            "W"
+        ]
+    },
+    {
+        "name": "Hinterland Harbor",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "G",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "240",
+        "rarity": "rare",
+        "produce": [
+            "G",
+            "U"
+        ]
+    },
+    {
+        "name": "Isolated Chapel",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "B",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "241",
+        "rarity": "rare",
+        "produce": [
+            "B",
+            "W"
+        ]
+    },
+    {
+        "name": "Memorial to Folly",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "242",
+        "rarity": "uncommon",
+        "produce": [
+            "B"
+        ]
+    },
+    {
+        "name": "Memorial to Genius",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "243",
+        "rarity": "uncommon",
+        "produce": [
+            "U"
+        ]
+    },
+    {
+        "name": "Memorial to Glory",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "244",
+        "rarity": "uncommon",
+        "produce": [
+            "W"
+        ]
+    },
+    {
+        "name": "Memorial to Unity",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "245",
+        "rarity": "uncommon",
+        "produce": [
+            "G"
+        ]
+    },
+    {
+        "name": "Memorial to War",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "246",
+        "rarity": "uncommon",
+        "produce": [
+            "R"
+        ]
+    },
+    {
+        "name": "Sulfur Falls",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "R",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "247",
+        "rarity": "rare",
+        "produce": [
+            "U",
+            "R"
+        ]
+    },
+    {
+        "name": "Woodland Cemetery",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "B",
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "248",
+        "rarity": "rare",
+        "produce": [
+            "B",
+            "G"
+        ]
+    },
+    {
+        "name": "Zhalfirin Void",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "249",
+        "rarity": "uncommon",
+        "produce": [
+            "1"
+        ]
+    },
+    {
+        "name": "Plains",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "250",
+        "rarity": "basic land",
+        "produce": [
+            "W"
+        ]
+    },
+    {
+        "name": "Island",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "254",
+        "rarity": "basic land",
+        "produce": [
+            "U"
+        ]
+    },
+    {
+        "name": "Swamp",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "258",
+        "rarity": "basic land",
+        "produce": [
+            "B"
+        ]
+    },
+    {
+        "name": "Mountain",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "262",
+        "rarity": "basic land",
+        "produce": [
+            "R"
+        ]
+    },
+    {
+        "name": "Forest",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "266",
+        "rarity": "basic land",
+        "produce": [
+            "G"
+        ]
+    },
+    {
+        "name": "Meandering River",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "274",
+        "rarity": "common",
+        "produce": [
+            "U",
+            "W"
+        ]
+    },
+    {
+        "name": "Timber Gorge",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "G",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "279",
+        "rarity": "common",
+        "produce": [
+            "G",
+            "R"
+        ]
+    }
+]

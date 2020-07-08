@@ -1,0 +1,4852 @@
+[
+    {
+        "name": "Karn, Scion of Urza",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "1",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Adamant Will",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "2",
+        "rarity": "common"
+    },
+    {
+        "name": "Aven Sentry",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "3",
+        "rarity": "common"
+    },
+    {
+        "name": "Baird, Steward of Argive",
+        "mana_cost": "{2}{W}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "4",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Benalish Honor Guard",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "5",
+        "rarity": "common"
+    },
+    {
+        "name": "Benalish Marshal",
+        "mana_cost": "{W}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "6",
+        "rarity": "rare"
+    },
+    {
+        "name": "Blessed Light",
+        "mana_cost": "{4}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "7",
+        "rarity": "common"
+    },
+    {
+        "name": "Board the Weatherlight",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "8",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Call the Cavalry",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "9",
+        "rarity": "common"
+    },
+    {
+        "name": "Charge",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "10",
+        "rarity": "common"
+    },
+    {
+        "name": "D'Avenant Trapper",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "11",
+        "rarity": "common"
+    },
+    {
+        "name": "Danitha Capashen, Paragon",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "12",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Daring Archaeologist",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "13",
+        "rarity": "rare"
+    },
+    {
+        "name": "Dauntless Bodyguard",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "14",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Dub",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "15",
+        "rarity": "common"
+    },
+    {
+        "name": "Evra, Halcyon Witness",
+        "mana_cost": "{4}{W}{W}",
+        "cmc": 6.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "16",
+        "rarity": "rare"
+    },
+    {
+        "name": "Excavation Elephant",
+        "mana_cost": "{4}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "17",
+        "rarity": "common"
+    },
+    {
+        "name": "Fall of the Thran",
+        "mana_cost": "{5}{W}",
+        "cmc": 6.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "18",
+        "rarity": "rare"
+    },
+    {
+        "name": "Gideon's Reproach",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "19",
+        "rarity": "common"
+    },
+    {
+        "name": "Healing Grace",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "20",
+        "rarity": "common"
+    },
+    {
+        "name": "History of Benalia",
+        "mana_cost": "{1}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "21",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Invoke the Divine",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "22",
+        "rarity": "common"
+    },
+    {
+        "name": "Knight of Grace",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "23",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Knight of New Benalia",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "24",
+        "rarity": "common"
+    },
+    {
+        "name": "Kwende, Pride of Femeref",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "25",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Lyra Dawnbringer",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "26",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Mesa Unicorn",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "27",
+        "rarity": "common"
+    },
+    {
+        "name": "On Serra's Wings",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "28",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Pegasus Courser",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "29",
+        "rarity": "common"
+    },
+    {
+        "name": "Sanctum Spirit",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "30",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Seal Away",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "31",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sergeant-at-Arms",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "32",
+        "rarity": "common"
+    },
+    {
+        "name": "Serra Angel",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "33",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Serra Disciple",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "34",
+        "rarity": "common"
+    },
+    {
+        "name": "Shalai, Voice of Plenty",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "G",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "35",
+        "rarity": "rare"
+    },
+    {
+        "name": "Teshar, Ancestor's Apostle",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "36",
+        "rarity": "rare"
+    },
+    {
+        "name": "Tragic Poet",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "37",
+        "rarity": "common"
+    },
+    {
+        "name": "Triumph of Gerrard",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "38",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Urza's Ruinous Blast",
+        "mana_cost": "{4}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "39",
+        "rarity": "rare"
+    },
+    {
+        "name": "Academy Drake",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "40",
+        "rarity": "common"
+    },
+    {
+        "name": "Academy Journeymage",
+        "mana_cost": "{4}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "41",
+        "rarity": "common"
+    },
+    {
+        "name": "The Antiquities War",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "42",
+        "rarity": "rare"
+    },
+    {
+        "name": "Arcane Flight",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "43",
+        "rarity": "common"
+    },
+    {
+        "name": "Artificer's Assistant",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "44",
+        "rarity": "common"
+    },
+    {
+        "name": "Befuddle",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "45",
+        "rarity": "common"
+    },
+    {
+        "name": "Blink of an Eye",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "46",
+        "rarity": "common"
+    },
+    {
+        "name": "Cloudreader Sphinx",
+        "mana_cost": "{4}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "47",
+        "rarity": "common"
+    },
+    {
+        "name": "Cold-Water Snapper",
+        "mana_cost": "{5}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "48",
+        "rarity": "common"
+    },
+    {
+        "name": "Curator's Ward",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "49",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Deep Freeze",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "50",
+        "rarity": "common"
+    },
+    {
+        "name": "Diligent Excavator",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "51",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Divination",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "52",
+        "rarity": "common"
+    },
+    {
+        "name": "Homarid Explorer",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "53",
+        "rarity": "common"
+    },
+    {
+        "name": "In Bolas's Clutches",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "54",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Karn's Temporal Sundering",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "55",
+        "rarity": "rare"
+    },
+    {
+        "name": "Merfolk Trickster",
+        "mana_cost": "{U}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "56",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "The Mirari Conjecture",
+        "mana_cost": "{4}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "57",
+        "rarity": "rare"
+    },
+    {
+        "name": "Naban, Dean of Iteration",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "58",
+        "rarity": "rare"
+    },
+    {
+        "name": "Naru Meha, Master Wizard",
+        "mana_cost": "{2}{U}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "59",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Opt",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "60",
+        "rarity": "common"
+    },
+    {
+        "name": "Precognition Field",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "61",
+        "rarity": "rare"
+    },
+    {
+        "name": "Relic Runner",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "62",
+        "rarity": "common"
+    },
+    {
+        "name": "Rescue",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "63",
+        "rarity": "common"
+    },
+    {
+        "name": "Sage of Lat-Nam",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "64",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sentinel of the Pearl Trident",
+        "mana_cost": "{4}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "65",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Slinn Voda, the Rising Deep",
+        "mana_cost": "{6}{U}{U}",
+        "cmc": 8.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "66",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Syncopate",
+        "mana_cost": "{X}{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "67",
+        "rarity": "common"
+    },
+    {
+        "name": "Tempest Djinn",
+        "mana_cost": "{U}{U}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "68",
+        "rarity": "rare"
+    },
+    {
+        "name": "Tetsuko Umezawa, Fugitive",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "69",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Time of Ice",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "70",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Tolarian Scholar",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "71",
+        "rarity": "common"
+    },
+    {
+        "name": "Unwind",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "72",
+        "rarity": "common"
+    },
+    {
+        "name": "Vodalian Arcanist",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "73",
+        "rarity": "common"
+    },
+    {
+        "name": "Weight of Memory",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "74",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Wizard's Retort",
+        "mana_cost": "{1}{U}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "75",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Zahid, Djinn of the Lamp",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "76",
+        "rarity": "rare"
+    },
+    {
+        "name": "Blessing of Belzenlok",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "77",
+        "rarity": "common"
+    },
+    {
+        "name": "Cabal Evangel",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "78",
+        "rarity": "common"
+    },
+    {
+        "name": "Cabal Paladin",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "79",
+        "rarity": "common"
+    },
+    {
+        "name": "Caligo Skin-Witch",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "80",
+        "rarity": "common"
+    },
+    {
+        "name": "Cast Down",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "81",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Chainer's Torment",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "82",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Dark Bargain",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "83",
+        "rarity": "common"
+    },
+    {
+        "name": "Deathbloom Thallid",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "84",
+        "rarity": "common"
+    },
+    {
+        "name": "Demonic Vigor",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "85",
+        "rarity": "common"
+    },
+    {
+        "name": "Demonlord Belzenlok",
+        "mana_cost": "{4}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "86",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Divest",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "87",
+        "rarity": "common"
+    },
+    {
+        "name": "Dread Shade",
+        "mana_cost": "{B}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "88",
+        "rarity": "rare"
+    },
+    {
+        "name": "Drudge Sentinel",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "89",
+        "rarity": "common"
+    },
+    {
+        "name": "The Eldest Reborn",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "90",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Eviscerate",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "91",
+        "rarity": "common"
+    },
+    {
+        "name": "Feral Abomination",
+        "mana_cost": "{5}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "92",
+        "rarity": "common"
+    },
+    {
+        "name": "Final Parting",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "93",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Fungal Infection",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "94",
+        "rarity": "common"
+    },
+    {
+        "name": "Josu Vess, Lich Knight",
+        "mana_cost": "{2}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "95",
+        "rarity": "rare"
+    },
+    {
+        "name": "Kazarov, Sengir Pureblood",
+        "mana_cost": "{5}{B}{B}",
+        "cmc": 7.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "96",
+        "rarity": "rare"
+    },
+    {
+        "name": "Knight of Malice",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "97",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Lich's Mastery",
+        "mana_cost": "{3}{B}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "98",
+        "rarity": "rare"
+    },
+    {
+        "name": "Lingering Phantom",
+        "mana_cost": "{5}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "99",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Phyrexian Scriptures",
+        "mana_cost": "{2}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "100",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Rat Colony",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "101",
+        "rarity": "common"
+    },
+    {
+        "name": "Rite of Belzenlok",
+        "mana_cost": "{2}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "102",
+        "rarity": "rare"
+    },
+    {
+        "name": "Settle the Score",
+        "mana_cost": "{2}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "103",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Soul Salvage",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "104",
+        "rarity": "common"
+    },
+    {
+        "name": "Stronghold Confessor",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "105",
+        "rarity": "common"
+    },
+    {
+        "name": "Thallid Omnivore",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "106",
+        "rarity": "common"
+    },
+    {
+        "name": "Thallid Soothsayer",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "107",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Torgaar, Famine Incarnate",
+        "mana_cost": "{6}{B}{B}",
+        "cmc": 8.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "108",
+        "rarity": "rare"
+    },
+    {
+        "name": "Urgoros, the Empty One",
+        "mana_cost": "{4}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "109",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Vicious Offering",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "110",
+        "rarity": "common"
+    },
+    {
+        "name": "Whisper, Blood Liturgist",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "111",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Windgrace Acolyte",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "112",
+        "rarity": "common"
+    },
+    {
+        "name": "Yargle, Glutton of Urborg",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "113",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Yawgmoth's Vile Offering",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "114",
+        "rarity": "rare"
+    },
+    {
+        "name": "Bloodstone Goblin",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "115",
+        "rarity": "common"
+    },
+    {
+        "name": "Champion of the Flame",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "116",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Fervent Strike",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "117",
+        "rarity": "common"
+    },
+    {
+        "name": "Fiery Intervention",
+        "mana_cost": "{4}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "118",
+        "rarity": "common"
+    },
+    {
+        "name": "Fight with Fire",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "119",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Fire Elemental",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "120",
+        "rarity": "common"
+    },
+    {
+        "name": "Firefist Adept",
+        "mana_cost": "{4}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "121",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "The First Eruption",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "122",
+        "rarity": "rare"
+    },
+    {
+        "name": "The Flame of Keld",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "123",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Frenzied Rage",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "124",
+        "rarity": "common"
+    },
+    {
+        "name": "Ghitu Chronicler",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "125",
+        "rarity": "common"
+    },
+    {
+        "name": "Ghitu Journeymage",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "126",
+        "rarity": "common"
+    },
+    {
+        "name": "Ghitu Lavarunner",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "127",
+        "rarity": "common"
+    },
+    {
+        "name": "Goblin Barrage",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "128",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Goblin Chainwhirler",
+        "mana_cost": "{R}{R}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "129",
+        "rarity": "rare"
+    },
+    {
+        "name": "Goblin Warchief",
+        "mana_cost": "{1}{R}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "130",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Haphazard Bombardment",
+        "mana_cost": "{5}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "131",
+        "rarity": "rare"
+    },
+    {
+        "name": "Jaya Ballard",
+        "mana_cost": "{2}{R}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "132",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Jaya's Immolating Inferno",
+        "mana_cost": "{X}{R}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "133",
+        "rarity": "rare"
+    },
+    {
+        "name": "Keldon Overseer",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "134",
+        "rarity": "common"
+    },
+    {
+        "name": "Keldon Raider",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "135",
+        "rarity": "common"
+    },
+    {
+        "name": "Keldon Warcaller",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "136",
+        "rarity": "common"
+    },
+    {
+        "name": "Orcish Vandal",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "137",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Radiating Lightning",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "138",
+        "rarity": "common"
+    },
+    {
+        "name": "Rampaging Cyclops",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "139",
+        "rarity": "common"
+    },
+    {
+        "name": "Run Amok",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "140",
+        "rarity": "common"
+    },
+    {
+        "name": "Seismic Shift",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "141",
+        "rarity": "common"
+    },
+    {
+        "name": "Shivan Fire",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "142",
+        "rarity": "common"
+    },
+    {
+        "name": "Siege-Gang Commander",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "143",
+        "rarity": "rare"
+    },
+    {
+        "name": "Skirk Prospector",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "144",
+        "rarity": "common"
+    },
+    {
+        "name": "Skizzik",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "145",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Squee, the Immortal",
+        "mana_cost": "{1}{R}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "146",
+        "rarity": "rare"
+    },
+    {
+        "name": "Two-Headed Giant",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "147",
+        "rarity": "rare"
+    },
+    {
+        "name": "Valduk, Keeper of the Flame",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "148",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Verix Bladewing",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "149",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Warcry Phoenix",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "150",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Warlord's Fury",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "151",
+        "rarity": "common"
+    },
+    {
+        "name": "Wizard's Lightning",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "152",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Adventurous Impulse",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "153",
+        "rarity": "common"
+    },
+    {
+        "name": "Ancient Animus",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "154",
+        "rarity": "common"
+    },
+    {
+        "name": "Arbor Armament",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "155",
+        "rarity": "common"
+    },
+    {
+        "name": "Baloth Gorger",
+        "mana_cost": "{2}{G}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "156",
+        "rarity": "common"
+    },
+    {
+        "name": "Broken Bond",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "157",
+        "rarity": "common"
+    },
+    {
+        "name": "Corrosive Ooze",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "158",
+        "rarity": "common"
+    },
+    {
+        "name": "Elfhame Druid",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "159",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Fungal Plots",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "160",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Gaea's Blessing",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "161",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Gaea's Protector",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "162",
+        "rarity": "common"
+    },
+    {
+        "name": "Gift of Growth",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "163",
+        "rarity": "common"
+    },
+    {
+        "name": "Grow from the Ashes",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "164",
+        "rarity": "common"
+    },
+    {
+        "name": "Grunn, the Lonely King",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "165",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Kamahl's Druidic Vow",
+        "mana_cost": "{X}{G}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "166",
+        "rarity": "rare"
+    },
+    {
+        "name": "Krosan Druid",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "167",
+        "rarity": "common"
+    },
+    {
+        "name": "Llanowar Elves",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "168",
+        "rarity": "common"
+    },
+    {
+        "name": "Llanowar Envoy",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "169",
+        "rarity": "common"
+    },
+    {
+        "name": "Llanowar Scout",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "170",
+        "rarity": "common"
+    },
+    {
+        "name": "Mammoth Spider",
+        "mana_cost": "{4}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "171",
+        "rarity": "common"
+    },
+    {
+        "name": "Marwyn, the Nurturer",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "172",
+        "rarity": "rare"
+    },
+    {
+        "name": "The Mending of Dominaria",
+        "mana_cost": "{3}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "173",
+        "rarity": "rare"
+    },
+    {
+        "name": "Multani, Yavimaya's Avatar",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "174",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Nature's Spiral",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "175",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Pierce the Sky",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "176",
+        "rarity": "common"
+    },
+    {
+        "name": "Primordial Wurm",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "177",
+        "rarity": "common"
+    },
+    {
+        "name": "Saproling Migration",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "178",
+        "rarity": "common"
+    },
+    {
+        "name": "Song of Freyalise",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "179",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Spore Swarm",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "180",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sporecrown Thallid",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "181",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Steel Leaf Champion",
+        "mana_cost": "{G}{G}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "182",
+        "rarity": "rare"
+    },
+    {
+        "name": "Sylvan Awakening",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "183",
+        "rarity": "rare"
+    },
+    {
+        "name": "Territorial Allosaurus",
+        "mana_cost": "{2}{G}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "184",
+        "rarity": "rare"
+    },
+    {
+        "name": "Thorn Elemental",
+        "mana_cost": "{5}{G}{G}",
+        "cmc": 7.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "185",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Untamed Kavu",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "186",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Verdant Force",
+        "mana_cost": "{5}{G}{G}{G}",
+        "cmc": 8.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "187",
+        "rarity": "rare"
+    },
+    {
+        "name": "Wild Onslaught",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "188",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Yavimaya Sapherd",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "189",
+        "rarity": "common"
+    },
+    {
+        "name": "Adeliz, the Cinder Wind",
+        "mana_cost": "{1}{U}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R",
+            "U"
+        ],
+        "color_identity": [
+            "R",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "190",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Arvad the Cursed",
+        "mana_cost": "{3}{W}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B",
+            "W"
+        ],
+        "color_identity": [
+            "B",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "191",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Aryel, Knight of Windgrace",
+        "mana_cost": "{2}{W}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B",
+            "W"
+        ],
+        "color_identity": [
+            "B",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "192",
+        "rarity": "rare"
+    },
+    {
+        "name": "Darigaaz Reincarnated",
+        "mana_cost": "{4}{B}{R}{G}",
+        "cmc": 7.0,
+        "colors": [
+            "B",
+            "G",
+            "R"
+        ],
+        "color_identity": [
+            "B",
+            "G",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "193",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Garna, the Bloodflame",
+        "mana_cost": "{3}{B}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "B",
+            "R"
+        ],
+        "color_identity": [
+            "B",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "194",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Grand Warlord Radha",
+        "mana_cost": "{2}{R}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G",
+            "R"
+        ],
+        "color_identity": [
+            "G",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "195",
+        "rarity": "rare"
+    },
+    {
+        "name": "Hallar, the Firefletcher",
+        "mana_cost": "{1}{R}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G",
+            "R"
+        ],
+        "color_identity": [
+            "G",
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "196",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Jhoira, Weatherlight Captain",
+        "mana_cost": "{2}{U}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R",
+            "U"
+        ],
+        "color_identity": [
+            "R",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "197",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Jodah, Archmage Eternal",
+        "mana_cost": "{1}{U}{R}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "R",
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "B",
+            "G",
+            "R",
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "198",
+        "rarity": "rare"
+    },
+    {
+        "name": "Muldrotha, the Gravetide",
+        "mana_cost": "{3}{B}{G}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "B",
+            "G",
+            "U"
+        ],
+        "color_identity": [
+            "B",
+            "G",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "199",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Oath of Teferi",
+        "mana_cost": "{3}{W}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "200",
+        "rarity": "rare"
+    },
+    {
+        "name": "Primevals' Glorious Rebirth",
+        "mana_cost": "{5}{W}{B}",
+        "cmc": 7.0,
+        "colors": [
+            "B",
+            "W"
+        ],
+        "color_identity": [
+            "B",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "201",
+        "rarity": "rare"
+    },
+    {
+        "name": "Raff Capashen, Ship's Mage",
+        "mana_cost": "{2}{W}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "202",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Rona, Disciple of Gix",
+        "mana_cost": "{1}{U}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B",
+            "U"
+        ],
+        "color_identity": [
+            "B",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "203",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Shanna, Sisay's Legacy",
+        "mana_cost": "{G}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "G",
+            "W"
+        ],
+        "color_identity": [
+            "G",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "204",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Slimefoot, the Stowaway",
+        "mana_cost": "{1}{B}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "B",
+            "G"
+        ],
+        "color_identity": [
+            "B",
+            "G"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "205",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Tatyova, Benthic Druid",
+        "mana_cost": "{3}{G}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "G",
+            "U"
+        ],
+        "color_identity": [
+            "G",
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "206",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Teferi, Hero of Dominaria",
+        "mana_cost": "{3}{W}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "207",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Tiana, Ship's Caretaker",
+        "mana_cost": "{3}{R}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "R",
+            "W"
+        ],
+        "color_identity": [
+            "R",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "208",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Aesthir Glider",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "209",
+        "rarity": "common"
+    },
+    {
+        "name": "Amaranthine Wall",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "210",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Blackblade Reforged",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "211",
+        "rarity": "rare"
+    },
+    {
+        "name": "Bloodtallow Candle",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "212",
+        "rarity": "common"
+    },
+    {
+        "name": "Damping Sphere",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "213",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Forebear's Blade",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "214",
+        "rarity": "rare"
+    },
+    {
+        "name": "Gilded Lotus",
+        "mana_cost": "{5}",
+        "cmc": 5.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "215",
+        "rarity": "rare"
+    },
+    {
+        "name": "Guardians of Koilos",
+        "mana_cost": "{5}",
+        "cmc": 5.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "216",
+        "rarity": "common"
+    },
+    {
+        "name": "Helm of the Host",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "217",
+        "rarity": "rare"
+    },
+    {
+        "name": "Howling Golem",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "218",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Icy Manipulator",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "219",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Jhoira's Familiar",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "220",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Jousting Lance",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "221",
+        "rarity": "common"
+    },
+    {
+        "name": "Juggernaut",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "222",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Mishra's Self-Replicator",
+        "mana_cost": "{5}",
+        "cmc": 5.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "223",
+        "rarity": "rare"
+    },
+    {
+        "name": "Mox Amber",
+        "mana_cost": "{0}",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "224",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Navigator's Compass",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "225",
+        "rarity": "common"
+    },
+    {
+        "name": "Pardic Wanderer",
+        "mana_cost": "{6}",
+        "cmc": 6.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "226",
+        "rarity": "common"
+    },
+    {
+        "name": "Powerstone Shard",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "227",
+        "rarity": "common"
+    },
+    {
+        "name": "Shield of the Realm",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "228",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Short Sword",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "229",
+        "rarity": "common"
+    },
+    {
+        "name": "Skittering Surveyor",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "230",
+        "rarity": "common"
+    },
+    {
+        "name": "Sorcerer's Wand",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "231",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sparring Construct",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "232",
+        "rarity": "common"
+    },
+    {
+        "name": "Thran Temporal Gateway",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "233",
+        "rarity": "rare"
+    },
+    {
+        "name": "Traxos, Scourge of Kroog",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "234",
+        "rarity": "rare"
+    },
+    {
+        "name": "Urza's Tome",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "235",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Voltaic Servant",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "236",
+        "rarity": "common"
+    },
+    {
+        "name": "Weatherlight",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "237",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Teferi, Timebender",
+        "mana_cost": "{4}{W}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "270",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Temporal Machinations",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "271",
+        "rarity": "common"
+    },
+    {
+        "name": "Niambi, Faithful Healer",
+        "mana_cost": "{1}{W}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "272",
+        "rarity": "rare"
+    },
+    {
+        "name": "Teferi's Sentinel",
+        "mana_cost": "{5}",
+        "cmc": 5.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "273",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Chandra, Bold Pyromancer",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "275",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Chandra's Outburst",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "276",
+        "rarity": "rare"
+    },
+    {
+        "name": "Karplusan Hound",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "277",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Pyromantic Pilgrim",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "278",
+        "rarity": "common"
+    },
+    {
+        "name": "Firesong and Sunspeaker",
+        "mana_cost": "{4}{R}{W}",
+        "cmc": 6.0,
+        "colors": [
+            "R",
+            "W"
+        ],
+        "color_identity": [
+            "R",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not_legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "dom",
+        "set_name": "Dominaria",
+        "collector_number": "280",
+        "rarity": "rare"
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Secluded Stepe",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "banned",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "c18",
+        "set_name": "Historic Anthology 2",
+        "collector_number": "279",
+        "rarity": "common",
+        "produce": [
+            "W"
+        ]
+    },
+    {
+        "name": "Lonely Sandbar",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "banned",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "cn2",
+        "set_name": "Historic Anthology 2",
+        "collector_number": "257",
+        "rarity": "common",
+        "produce": [
+            "U"
+        ]
+    },
+    {
+        "name": "Barren Moor",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "banned",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "c18",
+        "set_name": "Historic Anthology 2",
+        "collector_number": "235",
+        "rarity": "common",
+        "produce": [
+            "B"
+        ]
+    },
+    {
+        "name": "Bojuka Bog",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "banned",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "wwk",
+        "set_name": "Historic Anthology 2",
+        "collector_number": "132",
+        "rarity": "common",
+        "produce": [
+            "B"
+        ]
+    },
+    {
+        "name": "Forgotten Cave",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "banned",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "cma",
+        "set_name": "Historic Anthology 2",
+        "collector_number": "249",
+        "rarity": "common",
+        "produce": [
+            "R"
+        ]
+    },
+    {
+        "name": "Tranquil Thicket",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "banned",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "c18",
+        "set_name": "Historic Anthology 2",
+        "collector_number": "290",
+        "rarity": "common",
+        "produce": [
+            "G"
+        ]
+    },
+    {
+        "name": "Ghost Quarter",
+        "mana_cost": "",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "banned",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "isd",
+        "set_name": "Historic Anthology 2",
+        "collector_number": "240",
+        "rarity": "uncommon",
+        "produce": [
+            "1"
+        ]
+    }
+]
