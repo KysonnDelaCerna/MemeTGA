@@ -1,0 +1,5218 @@
+[
+    {
+        "name": "Adherent of Hope",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "321",
+        "rarity": "common"
+    },
+    {
+        "name": "Alchemist's Gift",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "87",
+        "rarity": "common"
+    },
+    {
+        "name": "Alpine Houndmaster",
+        "mana_cost": "{R}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "R",
+            "W"
+        ],
+        "color_identity": [
+            "R",
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "215",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Alpine Watchdog",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "2",
+        "rarity": "common"
+    },
+    {
+        "name": "Angelic Ascension",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "3",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Anointed Chorister",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "4",
+        "rarity": "common"
+    },
+    {
+        "name": "Archfiend's Vessel",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "88",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Aven Gagglemaster",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "5",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Azusa, Lost but Seeking",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "173",
+        "rarity": "rare"
+    },
+    {
+        "name": "Bad Deal",
+        "mana_cost": "{4}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "89",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Baneslayer Angel",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "6",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Barrin, Tolarian Archmage",
+        "mana_cost": "{1}{U}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "45",
+        "rarity": "rare"
+    },
+    {
+        "name": "Basri, Devoted Paladin",
+        "mana_cost": "{4}{W}{W}",
+        "cmc": 6.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "320",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Basri Ket",
+        "mana_cost": "{1}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "7",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Basri's Acolyte",
+        "mana_cost": "{2}{W}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "8",
+        "rarity": "common"
+    },
+    {
+        "name": "Basri's Aegis",
+        "mana_cost": "{2}{W}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "322",
+        "rarity": "rare"
+    },
+    {
+        "name": "Basri's Lieutenant",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "9",
+        "rarity": "rare"
+    },
+    {
+        "name": "Basri's Solidarity",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "10",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Battle-Rattle Shaman",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "130",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Blood Glutton",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "90",
+        "rarity": "common"
+    },
+    {
+        "name": "Bolt Hound",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "131",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Bone Pit Brute",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "132",
+        "rarity": "common"
+    },
+    {
+        "name": "Brash Taunter",
+        "mana_cost": "{4}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "133",
+        "rarity": "rare"
+    },
+    {
+        "name": "Burlfist Oak",
+        "mana_cost": "{2}{G}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "174",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Burn Bright",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "134",
+        "rarity": "common"
+    },
+    {
+        "name": "Caged Zombie",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "91",
+        "rarity": "common"
+    },
+    {
+        "name": "Cancel",
+        "mana_cost": "{1}{U}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "46",
+        "rarity": "common"
+    },
+    {
+        "name": "Canopy Stalker",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "175",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Capture Sphere",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "47",
+        "rarity": "common"
+    },
+    {
+        "name": "Carrion Grub",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "92",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Celestial Enforcer",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "11",
+        "rarity": "common"
+    },
+    {
+        "name": "Chandra, Flame's Catalyst",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "332",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Chandra, Heart of Fire",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "135",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Chandra's Firemaw",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "333",
+        "rarity": "rare"
+    },
+    {
+        "name": "Chandra's Incinerator",
+        "mana_cost": "{5}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "136",
+        "rarity": "rare"
+    },
+    {
+        "name": "Chandra's Magmutt",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "137",
+        "rarity": "common"
+    },
+    {
+        "name": "Chandra's Pyreling",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "138",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Chromatic Orrery",
+        "mana_cost": "{7}",
+        "cmc": 7.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "228",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Chrome Replicator",
+        "mana_cost": "{5}",
+        "cmc": 5.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "229",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Colossal Dreadmaw",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "176",
+        "rarity": "common"
+    },
+    {
+        "name": "Conclave Mentor",
+        "mana_cost": "{G}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "G",
+            "W"
+        ],
+        "color_identity": [
+            "G",
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "216",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Concordia Pegasus",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "12",
+        "rarity": "common"
+    },
+    {
+        "name": "Conspicuous Snoop",
+        "mana_cost": "{R}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "139",
+        "rarity": "rare"
+    },
+    {
+        "name": "Containment Priest",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "13",
+        "rarity": "rare"
+    },
+    {
+        "name": "Crash Through",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "140",
+        "rarity": "common"
+    },
+    {
+        "name": "Crypt Lurker",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "93",
+        "rarity": "common"
+    },
+    {
+        "name": "Cultivate",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "177",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Daybreak Charger",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "14",
+        "rarity": "common"
+    },
+    {
+        "name": "Deathbloom Thallid",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "94",
+        "rarity": "common"
+    },
+    {
+        "name": "Defiant Strike",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "15",
+        "rarity": "common"
+    },
+    {
+        "name": "Demonic Embrace",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "95",
+        "rarity": "rare"
+    },
+    {
+        "name": "Destructive Tampering",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "141",
+        "rarity": "common"
+    },
+    {
+        "name": "Dire Fleet Warmonger",
+        "mana_cost": "{1}{B}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "B",
+            "R"
+        ],
+        "color_identity": [
+            "B",
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "217",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Discontinuity",
+        "mana_cost": "{3}{U}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "48",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Double Vision",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "142",
+        "rarity": "rare"
+    },
+    {
+        "name": "Drowsing Tyrannodon",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "178",
+        "rarity": "common"
+    },
+    {
+        "name": "Dub",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "16",
+        "rarity": "common"
+    },
+    {
+        "name": "Duress",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "96",
+        "rarity": "common"
+    },
+    {
+        "name": "Elder Gargaroth",
+        "mana_cost": "{3}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "179",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Eliminate",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "97",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Enthralling Hold",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "49",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Epitaph Golem",
+        "mana_cost": "{5}",
+        "cmc": 5.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "230",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Experimental Overload",
+        "mana_cost": "{2}{U}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R",
+            "U"
+        ],
+        "color_identity": [
+            "R",
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "218",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Faith's Fetters",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "17",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Falconer Adept",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "18",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Feat of Resistance",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "19",
+        "rarity": "common"
+    },
+    {
+        "name": "Feline Sovereign",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "180",
+        "rarity": "rare"
+    },
+    {
+        "name": "Fetid Imp",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "98",
+        "rarity": "common"
+    },
+    {
+        "name": "Fierce Empath",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "181",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Fiery Emancipation",
+        "mana_cost": "{3}{R}{R}{R}",
+        "cmc": 6.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "143",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Finishing Blow",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "99",
+        "rarity": "common"
+    },
+    {
+        "name": "Forgotten Sentinel",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "231",
+        "rarity": "common"
+    },
+    {
+        "name": "Frantic Inventory",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "50",
+        "rarity": "common"
+    },
+    {
+        "name": "Frost Breath",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "51",
+        "rarity": "common"
+    },
+    {
+        "name": "Fungal Rebirth",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "182",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Furious Rise",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "144",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Furor of the Bitten",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "145",
+        "rarity": "common"
+    },
+    {
+        "name": "Gadrak, the Crown-Scourge",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "146",
+        "rarity": "rare"
+    },
+    {
+        "name": "Gale Swooper",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "20",
+        "rarity": "common"
+    },
+    {
+        "name": "Garruk, Savage Herald",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "336",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Garruk's Gorehorn",
+        "mana_cost": "{4}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "184",
+        "rarity": "common"
+    },
+    {
+        "name": "Garruk's Harbinger",
+        "mana_cost": "{1}{G}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "185",
+        "rarity": "rare"
+    },
+    {
+        "name": "Garruk's Uprising",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "186",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Garruk's Warsteed",
+        "mana_cost": "{3}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "337",
+        "rarity": "rare"
+    },
+    {
+        "name": "Garruk, Unleashed",
+        "mana_cost": "{2}{G}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "183",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Ghostly Pilferer",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "52",
+        "rarity": "rare"
+    },
+    {
+        "name": "Gloom Sower",
+        "mana_cost": "{5}{B}{B}",
+        "cmc": 7.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "100",
+        "rarity": "common"
+    },
+    {
+        "name": "Glorious Anthem",
+        "mana_cost": "{1}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "21",
+        "rarity": "rare"
+    },
+    {
+        "name": "Gnarled Sage",
+        "mana_cost": "{3}{G}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "187",
+        "rarity": "common"
+    },
+    {
+        "name": "Goblin Arsonist",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "147",
+        "rarity": "common"
+    },
+    {
+        "name": "Goblin Wizardry",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "148",
+        "rarity": "common"
+    },
+    {
+        "name": "Goremand",
+        "mana_cost": "{4}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "101",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Grasp of Darkness",
+        "mana_cost": "{B}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "102",
+        "rarity": "common"
+    },
+    {
+        "name": "Griffin Aerie",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "22",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Grim Tutor",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "103",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Havoc Jester",
+        "mana_cost": "{4}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "149",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Heartfire Immolator",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "150",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Hellkite Punisher",
+        "mana_cost": "{5}{R}{R}",
+        "cmc": 7.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "151",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Heroic Intervention",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "188",
+        "rarity": "rare"
+    },
+    {
+        "name": "Historian of Zhalfir",
+        "mana_cost": "{2}{U}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "325",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Hobblefiend",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "152",
+        "rarity": "common"
+    },
+    {
+        "name": "Hooded Blightfang",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "104",
+        "rarity": "rare"
+    },
+    {
+        "name": "Hunter's Edge",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "189",
+        "rarity": "common"
+    },
+    {
+        "name": "Idol of Endurance",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "23",
+        "rarity": "rare"
+    },
+    {
+        "name": "Igneous Cur",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "153",
+        "rarity": "common"
+    },
+    {
+        "name": "Indulging Patrician",
+        "mana_cost": "{1}{W}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B",
+            "W"
+        ],
+        "color_identity": [
+            "B",
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "219",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Infernal Scarring",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "105",
+        "rarity": "common"
+    },
+    {
+        "name": "Invigorating Surge",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "190",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Jeskai Elder",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "53",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Jolrael, Mwonvuli Recluse",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "191",
+        "rarity": "rare"
+    },
+    {
+        "name": "Kaervek, the Spiteful",
+        "mana_cost": "{2}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "106",
+        "rarity": "rare"
+    },
+    {
+        "name": "Keen Glidemaster",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "54",
+        "rarity": "common"
+    },
+    {
+        "name": "Keral Keep Disciples",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "334",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Kinetic Augur",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "154",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Kitesail Freebooter",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "107",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Leafkin Avenger",
+        "mana_cost": "{2}{R}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G",
+            "R"
+        ],
+        "color_identity": [
+            "G",
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "220",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Legion's Judgment",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "24",
+        "rarity": "common"
+    },
+    {
+        "name": "Library Larcenist",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "55",
+        "rarity": "common"
+    },
+    {
+        "name": "Life Goes On",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "192",
+        "rarity": "common"
+    },
+    {
+        "name": "Light of Promise",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "25",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Liliana, Death Mage",
+        "mana_cost": "{4}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "328",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Liliana's Devotee",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "109",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Liliana's Scorn",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "329",
+        "rarity": "rare"
+    },
+    {
+        "name": "Liliana's Scrounger",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "330",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Liliana's Standard Bearer",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "110",
+        "rarity": "rare"
+    },
+    {
+        "name": "Liliana's Steward",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "111",
+        "rarity": "common"
+    },
+    {
+        "name": "Liliana, Waker of the Dead",
+        "mana_cost": "{2}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "108",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Llanowar Visionary",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "193",
+        "rarity": "common"
+    },
+    {
+        "name": "Lofty Denial",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "56",
+        "rarity": "common"
+    },
+    {
+        "name": "Lorescale Coatl",
+        "mana_cost": "{1}{G}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "G",
+            "U"
+        ],
+        "color_identity": [
+            "G",
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "221",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Makeshift Battalion",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "26",
+        "rarity": "common"
+    },
+    {
+        "name": "Malefic Scythe",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "112",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Mangara, the Diplomat",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "27",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Masked Blackguard",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "113",
+        "rarity": "common"
+    },
+    {
+        "name": "Massacre Wurm",
+        "mana_cost": "{3}{B}{B}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "114",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Mazemind Tome",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "232",
+        "rarity": "rare"
+    },
+    {
+        "name": "Meteorite",
+        "mana_cost": "{5}",
+        "cmc": 5.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "233",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Mind Rot",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "115",
+        "rarity": "common"
+    },
+    {
+        "name": "Miscast",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "57",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Mistral Singer",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "58",
+        "rarity": "common"
+    },
+    {
+        "name": "Mystic Skyfish",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "326",
+        "rarity": "common"
+    },
+    {
+        "name": "Necromentia",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "116",
+        "rarity": "rare"
+    },
+    {
+        "name": "Niambi, Esteemed Speaker",
+        "mana_cost": "{W}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "222",
+        "rarity": "rare"
+    },
+    {
+        "name": "Nine Lives",
+        "mana_cost": "{1}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "28",
+        "rarity": "rare"
+    },
+    {
+        "name": "Obsessive Stitcher",
+        "mana_cost": "{1}{U}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B",
+            "U"
+        ],
+        "color_identity": [
+            "B",
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "223",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Onakke Ogre",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "155",
+        "rarity": "common"
+    },
+    {
+        "name": "Opt",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "59",
+        "rarity": "common"
+    },
+    {
+        "name": "Ornery Dilophosaur",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "194",
+        "rarity": "common"
+    },
+    {
+        "name": "Pack Leader",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "29",
+        "rarity": "rare"
+    },
+    {
+        "name": "Palladium Myr",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "234",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Peer into the Abyss",
+        "mana_cost": "{4}{B}{B}{B}",
+        "cmc": 7.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "117",
+        "rarity": "rare"
+    },
+    {
+        "name": "Pestilent Haze",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "118",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Pitchburn Devils",
+        "mana_cost": "{4}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "156",
+        "rarity": "common"
+    },
+    {
+        "name": "Portcullis Vine",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "195",
+        "rarity": "common"
+    },
+    {
+        "name": "Predatory Wurm",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "338",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Pridemalkin",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "196",
+        "rarity": "common"
+    },
+    {
+        "name": "Primal Might",
+        "mana_cost": "{X}{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "197",
+        "rarity": "rare"
+    },
+    {
+        "name": "Prismite",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "235",
+        "rarity": "common"
+    },
+    {
+        "name": "Pursued Whale",
+        "mana_cost": "{5}{U}{U}",
+        "cmc": 7.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "60",
+        "rarity": "rare"
+    },
+    {
+        "name": "Quirion Dryad",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "198",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Radha, Heart of Keld",
+        "mana_cost": "{1}{R}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G",
+            "R"
+        ],
+        "color_identity": [
+            "G",
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "224",
+        "rarity": "rare"
+    },
+    {
+        "name": "Rain of Revelation",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "61",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Rambunctious Mutt",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "30",
+        "rarity": "common"
+    },
+    {
+        "name": "Ranger's Guile",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "199",
+        "rarity": "common"
+    },
+    {
+        "name": "Read the Tides",
+        "mana_cost": "{5}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "62",
+        "rarity": "common"
+    },
+    {
+        "name": "Return to Nature",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "200",
+        "rarity": "common"
+    },
+    {
+        "name": "Revitalize",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "31",
+        "rarity": "common"
+    },
+    {
+        "name": "Rewind",
+        "mana_cost": "{2}{U}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "63",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Riddleform",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "64",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Rin and Seri, Inseparable",
+        "mana_cost": "{1}{R}{G}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "G",
+            "R",
+            "W"
+        ],
+        "color_identity": [
+            "G",
+            "R",
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "278",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Rise Again",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "119",
+        "rarity": "common"
+    },
+    {
+        "name": "Roaming Ghostlight",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "65",
+        "rarity": "common"
+    },
+    {
+        "name": "Rookie Mistake",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "66",
+        "rarity": "common"
+    },
+    {
+        "name": "Rousing Read",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "67",
+        "rarity": "common"
+    },
+    {
+        "name": "Run Afoul",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "201",
+        "rarity": "common"
+    },
+    {
+        "name": "Runed Halo",
+        "mana_cost": "{W}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "32",
+        "rarity": "rare"
+    },
+    {
+        "name": "Sabertooth Mauler",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "202",
+        "rarity": "common"
+    },
+    {
+        "name": "Sanctum of All",
+        "mana_cost": "{W}{U}{B}{R}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "B",
+            "G",
+            "R",
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "B",
+            "G",
+            "R",
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "225",
+        "rarity": "rare"
+    },
+    {
+        "name": "Sanctum of Calm Waters",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "68",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sanctum of Fruitful Harvest",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "203",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sanctum of Shattered Heights",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "157",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sanctum of Stone Fangs",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "120",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sanctum of Tranquil Light",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "33",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sanguine Indulgence",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "121",
+        "rarity": "common"
+    },
+    {
+        "name": "Scavenging Ooze",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "204",
+        "rarity": "rare"
+    },
+    {
+        "name": "Scorching Dragonfire",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "158",
+        "rarity": "common"
+    },
+    {
+        "name": "Seasoned Hallowblade",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "34",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Secure the Scene",
+        "mana_cost": "{4}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "35",
+        "rarity": "common"
+    },
+    {
+        "name": "See the Truth",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "69",
+        "rarity": "rare"
+    },
+    {
+        "name": "Selfless Savior",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "36",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Setessan Training",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "205",
+        "rarity": "common"
+    },
+    {
+        "name": "Shacklegeist",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "70",
+        "rarity": "rare"
+    },
+    {
+        "name": "Shipwreck Dowser",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "71",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Shock",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "159",
+        "rarity": "common"
+    },
+    {
+        "name": "Short Sword",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "236",
+        "rarity": "common"
+    },
+    {
+        "name": "Siege Striker",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "37",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sigiled Contender",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "323",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Silent Dart",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "237",
+        "rarity": "common"
+    },
+    {
+        "name": "Silversmote Ghoul",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "122",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Skeleton Archer",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "123",
+        "rarity": "common"
+    },
+    {
+        "name": "Skyscanner",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "238",
+        "rarity": "common"
+    },
+    {
+        "name": "Skyway Sniper",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "206",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Snarespinner",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "207",
+        "rarity": "common"
+    },
+    {
+        "name": "Solemn Simulacrum",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "239",
+        "rarity": "rare"
+    },
+    {
+        "name": "Soul Sear",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "160",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Sparkhunter Masticore",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "240",
+        "rarity": "rare"
+    },
+    {
+        "name": "Speaker of the Heavens",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "38",
+        "rarity": "rare"
+    },
+    {
+        "name": "Spellgorger Weird",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "161",
+        "rarity": "common"
+    },
+    {
+        "name": "Spined Megalodon",
+        "mana_cost": "{5}{U}{U}",
+        "cmc": 7.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "72",
+        "rarity": "common"
+    },
+    {
+        "name": "Spirit of Malevolence",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "331",
+        "rarity": "common"
+    },
+    {
+        "name": "Sporeweb Weaver",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "208",
+        "rarity": "rare"
+    },
+    {
+        "name": "Staunch Shieldmate",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "39",
+        "rarity": "common"
+    },
+    {
+        "name": "Storm Caller",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "335",
+        "rarity": "common"
+    },
+    {
+        "name": "Stormwing Entity",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "73",
+        "rarity": "rare"
+    },
+    {
+        "name": "Subira, Tulzidi Caravanner",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "162",
+        "rarity": "rare"
+    },
+    {
+        "name": "Sublime Epiphany",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "74",
+        "rarity": "rare"
+    },
+    {
+        "name": "Sure Strike",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "163",
+        "rarity": "common"
+    },
+    {
+        "name": "Swift Response",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "40",
+        "rarity": "common"
+    },
+    {
+        "name": "Tavern Swindler",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "124",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Teferi, Master of Time",
+        "mana_cost": "{2}{U}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "75",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Teferi's Ageless Insight",
+        "mana_cost": "{2}{U}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "76",
+        "rarity": "rare"
+    },
+    {
+        "name": "Teferi's Protege",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "77",
+        "rarity": "common"
+    },
+    {
+        "name": "Teferi's Tutelage",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "78",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Teferi's Wavecaster",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "327",
+        "rarity": "rare"
+    },
+    {
+        "name": "Teferi, Timeless Voyager",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "324",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Tempered Veteran",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "41",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Terror of the Peaks",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "164",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Thieves' Guild Enforcer",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "125",
+        "rarity": "rare"
+    },
+    {
+        "name": "Thrashing Brontodon",
+        "mana_cost": "{1}{G}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "209",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Thrill of Possibility",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "165",
+        "rarity": "common"
+    },
+    {
+        "name": "Tide Skimmer",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "79",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Titanic Growth",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "210",
+        "rarity": "common"
+    },
+    {
+        "name": "Tolarian Kraken",
+        "mana_cost": "{4}{U}{U}",
+        "cmc": 6.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "80",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Tome Anima",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "81",
+        "rarity": "common"
+    },
+    {
+        "name": "Tormod's Crypt",
+        "mana_cost": "{0}",
+        "cmc": 0.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "241",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Track Down",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "211",
+        "rarity": "common"
+    },
+    {
+        "name": "Traitorous Greed",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "166",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Transmogrify",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "167",
+        "rarity": "rare"
+    },
+    {
+        "name": "Trufflesnout",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "212",
+        "rarity": "common"
+    },
+    {
+        "name": "Turn to Slag",
+        "mana_cost": "{3}{R}{R}",
+        "cmc": 5.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "168",
+        "rarity": "common"
+    },
+    {
+        "name": "Turret Ogre",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "169",
+        "rarity": "common"
+    },
+    {
+        "name": "Twinblade Assassins",
+        "mana_cost": "{3}{B}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "B",
+            "G"
+        ],
+        "color_identity": [
+            "B",
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "226",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Ugin, the Spirit Dragon",
+        "mana_cost": "{8}",
+        "cmc": 8.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "1",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Unleash Fury",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "170",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Unsubstantiate",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "82",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Valorous Steed",
+        "mana_cost": "{4}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "42",
+        "rarity": "common"
+    },
+    {
+        "name": "Village Rites",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "126",
+        "rarity": "common"
+    },
+    {
+        "name": "Vito, Thorn of the Dusk Rose",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "127",
+        "rarity": "rare"
+    },
+    {
+        "name": "Vodalian Arcanist",
+        "mana_cost": "{1}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "83",
+        "rarity": "common"
+    },
+    {
+        "name": "Volcanic Geyser",
+        "mana_cost": "{X}{R}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "171",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Volcanic Salvo",
+        "mana_cost": "{10}{R}{R}",
+        "cmc": 12.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "172",
+        "rarity": "rare"
+    },
+    {
+        "name": "Vryn Wingmare",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "43",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Waker of Waves",
+        "mana_cost": "{5}{U}{U}",
+        "cmc": 7.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "84",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Walking Corpse",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "128",
+        "rarity": "common"
+    },
+    {
+        "name": "Wall of Runes",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "85",
+        "rarity": "common"
+    },
+    {
+        "name": "Warded Battlements",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "44",
+        "rarity": "common"
+    },
+    {
+        "name": "Warden of the Woods",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "213",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Watcher of the Spheres",
+        "mana_cost": "{W}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "U",
+            "W"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "227",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Wildwood Patrol",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "339",
+        "rarity": "common"
+    },
+    {
+        "name": "Wildwood Scourge",
+        "mana_cost": "{X}{G}",
+        "cmc": 1.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "214",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Wishcoin Crab",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "86",
+        "rarity": "common"
+    },
+    {
+        "name": "Witch's Cauldron",
+        "mana_cost": "{B}",
+        "cmc": 1.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m21",
+        "set_name": "Core Set 2021",
+        "collector_number": "129",
+        "rarity": "uncommon"
+    }
+]

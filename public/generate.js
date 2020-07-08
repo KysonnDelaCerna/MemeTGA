@@ -82,12 +82,11 @@ function generateDeck () {
     if (sets === []) {
         return;
     }
-    let format = $('input[name="format"]').val();
+    let format = $('input[name="format"]:checked').val();
     let rarity = ["basic land"];
     $.each($('#rarity input[type="checkbox"]:checked'), function (key, value) {
         rarity.push(value.value);
     });
-
     if (format === 'standard' && sets.length > 0) {
         sets.filter(function (x) {
             return STANDARD.includes(x);
@@ -99,6 +98,7 @@ function generateDeck () {
     let curveSmoother = $('#curveSmoother').prop('checked');
     let addDualLands = $('#addDualLands').prop('checked');
     let addRandomNonBasicLands = $('#addRandomNonBasicLands').prop('checked');
+    let allowBanned = $('#allowBanned').prop('checked');
 
     let minLandAggressiveness = 0.8;
     let maxLandAggressiveness = 1.2;
@@ -126,10 +126,26 @@ function generateDeck () {
     let colorHunt = JSON.parse(JSON.stringify(chosenColors));
 
     let filteredLands = LANDS.filter(function (x) {
-        return chosenColors.length == 0 || (sets.includes(x.set_name) && rarity.includes(x.rarity) && (x.produce.includes("1") || x.produce.every(y => chosenColors.includes(y)) || (chosenColors.length >= 2 && chosenColors.every(y => x.produce.includes(y)))) && x.produce.length !== 0 && x.legalities[format] == "legal");
+        if (!allowBanned) {
+            if (format === 'standard' && STANDARDBANNED.includes(x.name)) {
+                return false
+            }
+            if (format === 'historic' && HISTORICBANNED.includes(x.name)) {
+                return false
+            }
+        }
+        return chosenColors.length == 0 || (sets.includes(x.set) && rarity.includes(x.rarity) && (x.produce.includes("1") || x.produce.every(y => chosenColors.includes(y)) || (chosenColors.length >= 2 && chosenColors.every(y => x.produce.includes(y)))) && x.produce.length !== 0);
     });
     let filteredNonLands = NONLANDS.filter(function (x) {
-        return sets.includes(x.set_name) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y)) && x.legalities[format] == "legal";
+        if (!allowBanned) {
+            if (format === 'standard' && STANDARDBANNED.includes(x.name)) {
+                return false
+            }
+            if (format === 'historic' && HISTORICBANNED.includes(x.name)) {
+                return false
+            }
+        }
+        return sets.includes(x.set) && rarity.includes(x.rarity) && x.color_identity.every(y => chosenColors.includes(y));
     });
 
     if (noColorlessLands && chosenColors.length > 0) {
@@ -353,6 +369,10 @@ function generateDeck () {
                         choice = filteredLands.sort(() => 0.5 - Math.random()).find(function (x) {
                             return [chosenColors[i], chosenColors[j]].every(y => x.produce.includes(y)) && x.produce.length === 2;
                         });
+
+                        if (typeof choice === 'undefined') {
+                            continue;
+                        }
 
                         if (chosenLands.some(x => x.name === choice.name)) {
                             filteredLands.splice(filteredLands.indexOf(choice), 1);

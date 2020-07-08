@@ -1,0 +1,492 @@
+[
+    {
+        "name": "Unburial Rites",
+        "mana_cost": "{4}{B}",
+        "cmc": 5.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "isd",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "122",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Timely Reinforcements",
+        "mana_cost": "{2}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m12",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "40",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Tempered Steel",
+        "mana_cost": "{1}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "som",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "24",
+        "rarity": "rare"
+    },
+    {
+        "name": "Swan Song",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "ths",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "65",
+        "rarity": "rare"
+    },
+    {
+        "name": "Enchantress's Presence",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "ons",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "261",
+        "rarity": "rare"
+    },
+    {
+        "name": "Ratchet Bomb",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "som",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "196",
+        "rarity": "rare"
+    },
+    {
+        "name": "Mirari's Wake",
+        "mana_cost": "{3}{G}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "G",
+            "W"
+        ],
+        "color_identity": [
+            "G",
+            "W"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "jud",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "139",
+        "rarity": "rare"
+    },
+    {
+        "name": "Akroma's Memorial",
+        "mana_cost": "{7}",
+        "cmc": 7.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "m13",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "200",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Body Double",
+        "mana_cost": "{4}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "plc",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "35",
+        "rarity": "rare"
+    },
+    {
+        "name": "Gempalm Incinerator",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "lgn",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "94",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Gempalm Polluter",
+        "mana_cost": "{5}{B}",
+        "cmc": 6.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "lgn",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "70",
+        "rarity": "common"
+    },
+    {
+        "name": "Krosan Tusker",
+        "mana_cost": "{5}{G}{G}",
+        "cmc": 7.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "ons",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "272",
+        "rarity": "common"
+    },
+    {
+        "name": "Tectonic Reformation",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "mh1",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "149",
+        "rarity": "rare"
+    },
+    {
+        "name": "Honden of Cleansing Fire",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "chk",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "14",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Honden of Seeing Winds",
+        "mana_cost": "{4}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "chk",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "69",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Honden of Night's Reach",
+        "mana_cost": "{3}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "chk",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "116",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Honden of Infinite Rage",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "chk",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "172",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Honden of Life's Web",
+        "mana_cost": "{4}{G}",
+        "cmc": 5.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "chk",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "213",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Silent Departure",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "U"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "isd",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "75",
+        "rarity": "common"
+    },
+    {
+        "name": "Roar of the Wurm",
+        "mana_cost": "{6}{G}",
+        "cmc": 7.0,
+        "colors": [
+            "G"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "ody",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "266",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Momentary Blink",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "W"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "tsp",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "29",
+        "rarity": "common"
+    },
+    {
+        "name": "Chainer's Edict",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "tor",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "57",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Devil's Play",
+        "mana_cost": "{X}{R}",
+        "cmc": 1.0,
+        "colors": [
+            "R"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "isd",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "140",
+        "rarity": "rare"
+    },
+    {
+        "name": "Ulamog, the Ceaseless Hunger",
+        "mana_cost": "{10}",
+        "cmc": 10.0,
+        "colors": [],
+        "color_identity": [],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "bfz",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "15",
+        "rarity": "mythic"
+    },
+    {
+        "name": "Phyrexian Obliterator",
+        "mana_cost": "{B}{B}{B}{B}",
+        "cmc": 4.0,
+        "colors": [
+            "B"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "legalities": {
+            "standard": "not legal",
+            "historic": "legal",
+            "pioneer": "legal"
+        },
+        "set": "nph",
+        "set_name": "Historic Anthology 3",
+        "collector_number": "68",
+        "rarity": "mythic"
+    }
+]
