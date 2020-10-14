@@ -1,22 +1,28 @@
-const ALLNONLANDSETS = ['m21', 'iko', 'thb', 'eld', 'm20', 'war', 'rna', 'grn', 'm19', 'dom', 'rix', 'xln', 'ha1', 'ha2', 'ana', 'ha3'];
-const ALLLANDSETS = ['m21', 'iko', 'thb', 'eld', 'm20', 'war', 'rna', 'grn', 'm19', 'dom', 'rix', 'xln', 'ha2', 'ha3'];
-const STANDARD = ['m21', 'iko', 'thb', 'eld', 'm20', 'war', 'rna', 'grn'];
+const ALLNONLANDSETS = ['m21', 'iko', 'thb', 'eld', 'm20', 'war', 'rna', 'grn', 'm19', 'dom', 'rix', 'xln', 'ha1', 'ha2', 'ana', 'ha3', 'znr'];
+const ALLLANDSETS = ['m21', 'iko', 'thb', 'eld', 'm20', 'war', 'rna', 'grn', 'm19', 'dom', 'rix', 'xln', 'ha2', 'ha3', 'znr'];
+const STANDARD = ['znr', 'm21', 'iko', 'thb', 'eld'];
 const STANDARDBANNED = [
-    'Agent of Treachery',
-    'Field of the Dead',
+    'Cauldron Familiar',
+    'Escape to the Wilds',
     'Fires of Invention',
+    'Growth Spiral',
+    'Lucky Clover',
     'Oko, Thief of Crowns',
+    'Omnath, Locus of Creation',
     'Once Upon a Time',
-    'Veil of Summer'
+    'Uro, Titan of Nature\'s Wrath'
 ];
 const HISTORICBANNED = [
     'Agent of Treachery',
+    'Field of the Dead',
     'Fires of Invention',
-    'Winota, Joiner of Forces',
+    'Nexus of Fate',
     'Oko, Thief of Crowns',
     'Once Upon a Time',
+    'Teferi, Time Raveler',
     'Veil of Summer',
-    'Nexus of Fate'
+    'Wilderness Reclamation',
+    'Winota, Joiner of Forces'
 ];
 
 let NONLANDS = [];

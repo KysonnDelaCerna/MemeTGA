@@ -1,7 +1,7 @@
 import requests
 import json
 
-response = requests.get("https://api.scryfall.com/cards/search?q=set%3Dm21").content
+response = requests.get("https://api.scryfall.com/cards/search?q=set%3Dznr").content
 
 lands = []
 nonlands = []
@@ -13,9 +13,18 @@ while True:
     for card in cards:
         temp = {}
         temp["name"] = card["name"]
-        temp["mana_cost"] = card["mana_cost"]
+        try:
+            temp["mana_cost"] = card["mana_cost"]
+        except:
+            temp["mana_cost"] = ""
         temp["cmc"] = card["cmc"]
-        temp["colors"] = card["colors"]
+        try:
+            temp["colors"] = card["colors"]
+        except:
+            try:
+                temp["colors"] = card["produced_mana"]
+            except:
+                temp["colors"] = []
         temp["color_identity"] = card["color_identity"]
         temp["legalities"] = {}
         temp["legalities"]["standard"] = card["legalities"]["standard"]
@@ -26,7 +35,10 @@ while True:
         temp["collector_number"] = card["collector_number"]
         temp["rarity"] = card["rarity"]
         if "Land" in card["type_line"]:
-            temp["produce"] = card["color_identity"]
+            try:
+                temp["produce"] = card["produced_mana"]
+            except:
+                temp["produce"] = card["color_identity"]
             lands.append(temp)
         else:
             nonlands.append(temp)
