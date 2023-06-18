@@ -544,6 +544,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+firestore-document-parser@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/firestore-document-parser/-/firestore-document-parser-1.0.0.tgz#1b0687218b872f96cec60b022e2f71ec87b87068"
+  integrity sha512-cVAyKUhJxXoJ/jTmn7D55AKIV1or6U1QPXLpL2QYe3BQtzyNqaA6W5TOPUjOZd1VkHipdtYNJyZnD9Z43Z4A4Q==
+
 follow-redirects@^1.15.0:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
