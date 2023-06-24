@@ -1,11 +1,193 @@
 <template>
-  <h1 class="text-9xl font-extrabold">MemeTGA</h1>
+  <div class="absolute bottom-0 right-0 pb-4">
+    <Message
+      v-for="(message, index) of messages"
+      :key="index"
+      :severity="message.severity"
+      :life="message.life"
+      :closable="message.closable"
+      :sticky="message.sticky"
+      >{{ message.text }}</Message
+    >
+  </div>
+
+  <div
+    v-if="isLoading"
+    class="flex flex-col w-screen h-screen justify-center items-center"
+  >
+    <ProgressSpinner />
+    <h1 class="title">Fetching cards...</h1>
+  </div>
+  <div class="overflow-x-hidden" v-else>
+    <div class="flex flex-col space-y-2 p-8">
+      <div class="flex space-x-2">
+        <Button
+          label="Generate Deck"
+          severity="info"
+          @click="generateDeck"
+        ></Button>
+        <Button
+          label="Copy Code"
+          severity="info"
+          @click="copyDeckCode"
+        ></Button>
+      </div>
+
+      <TextArea
+        v-model="deckCode"
+        rows="20"
+        class="font-semibold text-lg"
+        readonly
+        autoResize
+      />
+    </div>
+
+    <div class="menu">
+      <div id="colors" class="panel">
+        <div>
+          <h1 class="title">Colors:</h1>
+          <div class="checkbox-container">
+            <Checkbox v-model="colors" inputId="W" name="color" value="W" />
+            <label for="W">White</label>
+          </div>
+          <div class="checkbox-container">
+            <Checkbox v-model="colors" inputId="U" name="color" value="U" />
+            <label for="U">Blue</label>
+          </div>
+          <div class="checkbox-container">
+            <Checkbox v-model="colors" inputId="B" name="color" value="B" />
+            <label for="B">Black</label>
+          </div>
+          <div class="checkbox-container">
+            <Checkbox v-model="colors" inputId="R" name="color" value="R" />
+            <label for="R">Red</label>
+          </div>
+          <div class="checkbox-container">
+            <Checkbox v-model="colors" inputId="G" name="color" value="G" />
+            <label for="G">Green</label>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="title">Set Colors:</h1>
+          <ToggleButton class="pl-4" v-model="setColors" />
+        </div>
+      </div>
+
+      <div id="sets" class="panel">
+        <div>
+          <h1 class="title">Sets:</h1>
+          <div class="checkbox-container" v-for="set of allSets" :key="set.set">
+            <Checkbox
+              v-model="sets"
+              :inputId="set.set"
+              name="set"
+              :value="set.set"
+            />
+            <label :for="set.set">{{ set.setName }}</label>
+          </div>
+        </div>
+      </div>
+
+      <div id="rarity" class="panel">
+        <div>
+          <h1 class="title">Rarity:</h1>
+          <div class="checkbox-container">
+            <Checkbox
+              v-model="rarity"
+              inputId="common"
+              name="rarity"
+              value="common"
+            />
+            <label for="common">Common</label>
+          </div>
+          <div class="checkbox-container">
+            <Checkbox
+              v-model="rarity"
+              inputId="uncommon"
+              name="rarity"
+              value="uncommon"
+            />
+            <label for="uncommon">Uncommon</label>
+          </div>
+          <div class="checkbox-container">
+            <Checkbox
+              v-model="rarity"
+              inputId="rare"
+              name="rarity"
+              value="rare"
+            />
+            <label for="rare">Rare</label>
+          </div>
+          <div class="checkbox-container">
+            <Checkbox
+              v-model="rarity"
+              inputId="mythic"
+              name="rarity"
+              value="mythic"
+            />
+            <label for="mythic">Mythic</label>
+          </div>
+        </div>
+      </div>
+
+      <div id="others" class="panel">
+        <div>
+          <h1 class="title">Add Non-basic Lands:</h1>
+          <ToggleButton class="pl-4" v-model="addRandomNonBasicLands" />
+        </div>
+
+        <div>
+          <h1 class="title">Deck Size:</h1>
+          <InputNumber
+            v-model="deckSize"
+            inputId="integeronly"
+            :min="60"
+            :max="200"
+          />
+        </div>
+
+        <div>
+          <h1 class="title">Format:</h1>
+          <Dropdown
+            v-model="format"
+            :options="allFormats"
+            option-label="name"
+            option-value="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
+
+<style scoped lang="postcss">
+.menu {
+  @apply w-screen flex flex-row flex-wrap justify-center p-8;
+}
+
+.panel {
+  @apply w-full md:w-1/2 lg:w-1/3 xl:w-1/4 flex flex-col p-8 space-y-8;
+}
+
+.checkbox-container {
+  @apply flex flex-row items-center space-x-2 pl-4;
+}
+
+.checkbox-container label {
+  @apply font-semibold text-lg;
+}
+
+.title {
+  @apply font-bold text-2xl mb-4;
+}
+</style>
 
 <script lang="ts">
 import { AxiosResponse } from "axios";
 import IFirestoreResponse from "./interfaces/FirestoreResponse";
 import ICard from "./interfaces/Card";
+import IMessage from "./interfaces/Message";
 import { parse } from "firestore-document-parser";
 
 type ICardsInDeck = { count: number } & ICard;
@@ -17,10 +199,25 @@ export default {
       colors: ["W", "U", "B", "R", "G"] as string[],
       setColors: false,
       sets: [] as string[],
-      format: "standard",
+      allSets: [] as { set: string; setName: string }[],
+      format: "historic",
+      allFormats: [
+        {
+          name: "Standard",
+          value: "standard",
+        },
+        {
+          name: "Historic",
+          value: "historic",
+        },
+      ],
       rarity: ["common", "uncommon", "rare", "mythic"] as string[],
       addRandomNonBasicLands: false,
       deckSize: 60,
+      isLoading: true,
+      deckCode: "",
+      isGenerating: false,
+      messages: [] as IMessage[],
     };
   },
   async created() {
@@ -45,10 +242,23 @@ export default {
 
           nextPageToken = response.data.nextPageToken;
         })
-        .catch((error) => {
-          console.log(error);
+        .catch((_error) => {
+          this.messages.push({
+            text: "An error occured while fetching cards...",
+            closable: true,
+            sticky: true,
+            life: 1000000,
+            severity: "error",
+          });
         });
     } while (nextPageToken);
+
+    this.allSets = [
+      ...new Map(this.cards.map((card) => [card["set"], card])).values(),
+    ].map((card) => ({ set: card.set, setName: card.setName }));
+
+    this.sets = this.allSets.map((s) => s.set);
+    this.isLoading = false;
   },
   methods: {
     random(): number {
@@ -148,7 +358,27 @@ export default {
       };
       return basicLand;
     },
+    async copyDeckCode() {
+      if (this.deckCode !== "") {
+        try {
+          await navigator.clipboard.writeText(this.deckCode);
+          this.messages.push({
+            text: "Deck code copied to clipboard.",
+            closable: true,
+            sticky: false,
+            life: 1000,
+            severity: "info",
+          });
+        } catch (_e) {}
+      }
+    },
     generateDeck() {
+      if (this.isGenerating) {
+        return;
+      }
+
+      this.isGenerating = true;
+
       if (this.sets.length === 0) {
         return;
       }
@@ -174,7 +404,7 @@ export default {
 
       const filteredCards = this.cards.filter((card) => {
         // filter by color
-        if (!card.colors.every((color) => this.colors.includes(color))) {
+        if (!card.colors.every((color) => chosenColors.includes(color))) {
           return false;
         }
 
@@ -324,6 +554,7 @@ export default {
           chosenColors,
           numLands
         );
+        countChosenLands += numLands;
         chosenLands.push(chosenLandCard);
       } else if (chosenColors.length == 1) {
         // fill with the appropriate basic land
@@ -333,22 +564,27 @@ export default {
           chosenColors,
           numLands
         );
+        countChosenLands += numLands;
         chosenLands.push(chosenLandCard);
       } else {
         let countPerColor: number[] = [];
+        let total = 0;
 
         // count number of colors in costs
         chosenColors.forEach((color, index) => {
           countPerColor[index] = 0;
 
-          chosenNonLands.forEach(function (x) {
+          chosenNonLands.forEach((card) => {
             /* Gives more importance to mana costs of cards with lower mana costs
                        1 cmc card's mana cost is worth 1.2 times as much
                        3 cmc card's mana cost is worth 1
                        6 cmc card's mana cost is worth 0.9 times as much */
-            countPerColor[index] +=
-              (x.manaCost.split(color).length - 1) *
-              (0.0133 * Math.pow(x.cmc, 2) - 0.1533 * x.cmc + 1.34);
+            const value =
+              (card.manaCost.split(color).length - 1) *
+              (0.0133 * Math.pow(card.cmc, 2) - 0.1533 * card.cmc + 1.34);
+
+            countPerColor[index] += value;
+            total += value;
           });
         });
 
@@ -358,62 +594,62 @@ export default {
           const count =
             i == chosenColors.length - 1
               ? numLands - countChosenLands
-              : Math.round(
-                  (countPerColor[i] /
-                    countPerColor.reduce((a, b) => a + b, 0)) *
-                    numLands
-                );
+              : Math.round((countPerColor[i] / total) * numLands);
           const landCards = this.generateBasicLand(
             landName,
             [chosenColors[i]],
             count
           );
 
+          countChosenLands += count;
           chosenLands.push(landCards);
         }
+      }
 
-        if (this.addRandomNonBasicLands) {
-          // for every basic land
-          for (let i = 0; i < chosenLands.length; i++) {
-            if (chosenLands[i].count < 6) {
-              continue;
-            }
+      if (this.addRandomNonBasicLands) {
+        // for every basic land
+        for (let i = 0; i < chosenLands.length; i++) {
+          if (chosenLands[i].count < 6) {
+            continue;
+          }
 
-            if (this.random() <= 50) {
-              // pick a random nonbasic land
-              const choice =
-                filteredLands[Math.floor(Math.random() * filteredLands.length)];
-              const count = this.chooseCount(4);
+          if (this.random() <= 75) {
+            // pick a random nonbasic land
+            const choice =
+              filteredLands[Math.floor(Math.random() * filteredLands.length)];
+            const count = this.chooseCount(4);
 
-              chosenLands[i].count -= count;
-              filteredLands.splice(filteredLands.indexOf(choice), 1);
+            chosenLands[i].count -= count;
+            filteredLands.splice(filteredLands.indexOf(choice), 1);
 
-              // add it to the deck
-              const landCard = {
-                ...choice,
-                count,
-              };
-              chosenLands.push(landCard);
-            }
+            // add it to the deck
+            const landCard = {
+              ...choice,
+              count,
+            };
+            chosenLands.push(landCard);
+          }
 
-            // chance for replacing more copies
-            if (chosenLands[i].count >= 6 && this.random() <= 50) {
-              i--;
-            }
+          // chance for replacing more copies
+          if (chosenLands[i].count >= 6 && this.random() <= 60) {
+            i--;
           }
         }
-
-        let text = "Deck";
-        if (countChosenLands > 0 && countChosenNonLands > 0) {
-          chosenNonLands.forEach(function (item) {
-            text += `\n${item.count} ${item.name}`;
-          });
-
-          chosenLands.forEach(function (item) {
-            text += `\n${item.count} ${item.name}`;
-          });
-        }
       }
+
+      let text = "Deck";
+      if (countChosenLands > 0 && countChosenNonLands > 0) {
+        chosenNonLands.forEach((item) => {
+          text += `\n${item.count} ${item.name}`;
+        });
+
+        chosenLands.forEach((item) => {
+          text += `\n${item.count} ${item.name}`;
+        });
+      }
+
+      this.deckCode = text;
+      this.isGenerating = false;
     },
   },
 };
