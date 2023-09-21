@@ -255,7 +255,9 @@ export default {
 
     this.allSets = [
       ...new Map(this.cards.map((card) => [card["set"], card])).values(),
-    ].map((card) => ({ set: card.set, setName: card.setName }));
+    ]
+      .map((card) => ({ set: card.set, setName: card.setName }))
+      .sort((a, b) => (a.setName > b.setName ? 1 : -1));
 
     this.sets = this.allSets.map((s) => s.set);
     this.isLoading = false;
